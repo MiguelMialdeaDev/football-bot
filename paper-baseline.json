@@ -116,6 +116,25 @@
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-19T13:08:13.204Z",
       "status": "PENDING"
+    },
+    {
+      "id": "2610a5fad9c312034347a0065bc782d0_H_1776624122926",
+      "eventId": "2610a5fad9c312034347a0065bc782d0",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "SD Huesca",
+      "awayTeam": "Zaragoza",
+      "commenceTime": "2026-04-26T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "SD Huesca (Local)",
+      "odds": 2.4253333333333336,
+      "prob": 0.5121170155212286,
+      "edge": 0.09980255702755075,
+      "betPct": 0.03,
+      "stake": 150,
+      "bankrollAtSignal": 5000,
+      "timestamp": "2026-04-19T18:42:02.926Z",
+      "status": "PENDING"
     }
   ],
   "results": [],
