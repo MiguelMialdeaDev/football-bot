@@ -663,10 +663,11 @@ async function fetchScores() {
     seenLeagues.add(leagueCode);
 
     try {
-      // daysFrom=14: ventana amplia para que un workflow fallado durante varios
-      // días no deje señales huérfanas. The Odds API permite hasta 14 días en el
-      // endpoint de scores y no cuesta extra (1 request cubre hasta 14 días).
-      const url = `https://api.the-odds-api.com/v4/sports/${sportKey}/scores/?apiKey=${ODDS_API_KEY}&daysFrom=14&dateFormat=iso`;
+      // daysFrom=3 es el máximo que permite The Odds API en el endpoint de scores.
+      // Con el workflow corriendo --results cada noche (cron 23:00 UTC) basta para
+      // que ningún partido se nos pase. Si el workflow falla más de 3 días seguidos
+      // hay que resolver los pendientes a mano (ver scripts/resolve-orphans.js).
+      const url = `https://api.the-odds-api.com/v4/sports/${sportKey}/scores/?apiKey=${ODDS_API_KEY}&daysFrom=3&dateFormat=iso`;
       const res = await fetch(url);
       if (!res.ok) continue;
       const data = await res.json();
