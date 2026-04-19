@@ -58,12 +58,19 @@ function listOrphans() {
   }
 }
 
+function normalize(str) {
+  return (str || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
 function findSignal(state, keyword) {
-  const needle = keyword.toLowerCase();
+  const needle = normalize(keyword);
   return (state.signals || []).find(s =>
     s.status === "PENDING" && (
-      s.homeTeam.toLowerCase().includes(needle) ||
-      s.awayTeam.toLowerCase().includes(needle)
+      normalize(s.homeTeam).includes(needle) ||
+      normalize(s.awayTeam).includes(needle)
     )
   );
 }

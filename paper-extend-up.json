@@ -18,7 +18,8 @@
       "stake": 150,
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-09T12:00:21.425Z",
-      "status": "PENDING"
+      "status": "CANCELLED",
+      "cancelledAt": "2026-04-19T14:23:26.782Z"
     },
     {
       "id": "2078e28f31e6ebf1dca98362a55dca97_H_1775913948131",
@@ -37,7 +38,8 @@
       "stake": 150,
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-11T13:25:48.131Z",
-      "status": "PENDING"
+      "status": "CANCELLED",
+      "cancelledAt": "2026-04-19T14:23:34.429Z"
     },
     {
       "id": "928d3b98e52bc68d32e938c1e6d3e094_H_1776238001661",
