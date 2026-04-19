@@ -663,7 +663,10 @@ async function fetchScores() {
     seenLeagues.add(leagueCode);
 
     try {
-      const url = `https://api.the-odds-api.com/v4/sports/${sportKey}/scores/?apiKey=${ODDS_API_KEY}&daysFrom=5&dateFormat=iso`;
+      // daysFrom=14: ventana amplia para que un workflow fallado durante varios
+      // días no deje señales huérfanas. The Odds API permite hasta 14 días en el
+      // endpoint de scores y no cuesta extra (1 request cubre hasta 14 días).
+      const url = `https://api.the-odds-api.com/v4/sports/${sportKey}/scores/?apiKey=${ODDS_API_KEY}&daysFrom=14&dateFormat=iso`;
       const res = await fetch(url);
       if (!res.ok) continue;
       const data = await res.json();
