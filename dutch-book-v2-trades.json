@@ -1,0 +1,19 @@
+{
+  "startTime": "2026-04-06T12:38:44.295Z",
+  "lastUpdate": "2026-04-10T12:31:21.232Z",
+  "totalScans": 4095,
+  "totalPnL": 0,
+  "stats": {
+    "events": 600,
+    "eligible": 35,
+    "markets": 504,
+    "falsePositives": 259
+  },
+  "config": {
+    "MIN_PROFIT_PCT": 0.3,
+    "MIN_VOLUME": 5000,
+    "MIN_LIQUIDITY": 100,
+    "BET_SIZE": 100
+  },
+  "opportunities": []
+}

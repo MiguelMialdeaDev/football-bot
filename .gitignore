@@ -1,0 +1,18 @@
+# Secretos locales
+.env
+
+# Dependencias
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Scripts específicos de Windows (contienen rutas absolutas de tu PC)
+*.bat
+
+# Artefactos del editor
+.vscode/
+.idea/
+*.swp
+.DS_Store

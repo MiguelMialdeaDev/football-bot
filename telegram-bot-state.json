@@ -1,0 +1,34 @@
+{
+  "signals": [
+    {
+      "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775650177290",
+      "eventId": "478fc8225915deb793c6d6e8c79f82ad",
+      "sportKey": "soccer_france_ligue_two",
+      "leagueCode": "F2",
+      "leagueName": "Ligue 2",
+      "homeTeam": "Rodez AF",
+      "awayTeam": "Troyes",
+      "commenceTime": "2026-04-13T18:45:00.000Z",
+      "side": "H",
+      "sideLabel": "Rodez AF (Local)",
+      "odds": 3.2844444444444445,
+      "edge": 0.09512241472913807,
+      "prob": 0.3995879086398282,
+      "betPct": 0.03,
+      "kellyRaw": 0.1367616040560954,
+      "timestamp": "2026-04-08T12:09:37.290Z",
+      "status": "PENDING"
+    }
+  ],
+  "results": [],
+  "totalPnL": 0,
+  "totalBets": 0,
+  "wins": 0,
+  "losses": 0,
+  "currentStreak": {
+    "type": null,
+    "count": 0
+  },
+  "monthlyPnL": {},
+  "weeklyPnL": {}
+}

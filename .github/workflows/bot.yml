@@ -1,0 +1,87 @@
+name: Football Betting Bot
+
+on:
+  schedule:
+    # Scan de oportunidades: 2 veces al día (UTC) — optimizado para
+    # no quemar cuota de The Odds API (500 req/mes en free tier).
+    # Si subes a plan pago puedes hacerlo más frecuente.
+    - cron: '0 9,18 * * *'    # 09:00 y 18:00 UTC
+    # Verificación de resultados: cada noche tras terminarse los partidos.
+    - cron: '0 23 * * *'      # 23:00 UTC
+  workflow_dispatch:           # Lanzarlo manualmente desde GitHub
+
+# Serializa runs — evita que scan y results se pisen escribiendo los .json de estado.
+concurrency:
+  group: football-bot
+  cancel-in-progress: false
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write          # Necesario para commitear estado de vuelta
+
+    steps:
+      - name: 📥 Descargar código
+        uses: actions/checkout@v4
+
+      - name: 🟢 Instalar Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 📦 Instalar dependencias
+        run: npm ci || npm install
+
+      - name: 🔍 Elegir acción según el cron
+        id: action
+        run: |
+          # Los cron de 09:00 y 18:00 → scan
+          # El cron de 23:00 → results
+          # workflow_dispatch manual → scan por defecto (cambiable)
+          schedule="${{ github.event.schedule }}"
+          if [ "$schedule" = "0 23 * * *" ]; then
+            echo "mode=results" >> $GITHUB_OUTPUT
+          else
+            echo "mode=scan" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 🤖 Ejecutar bot
+        env:
+          ODDS_API_KEY:        ${{ secrets.ODDS_API_KEY }}
+          TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: |
+          mkdir -p logs
+          node paper-trade-compare.js --${{ steps.action.outputs.mode }} 2>&1 | tee logs/${{ steps.action.outputs.mode }}.log
+
+      - name: 💾 Guardar estado (portfolios, tracking)
+        if: always()
+        run: |
+          git config --local user.email "bot@football-bot"
+          git config --local user.name  "Football Bot"
+          git add -f paper-baseline.json paper-extend-up.json telegram-bot-state.json surebet-portfolio.json trades.json weather-trades.json weather-v2-trades.json dutch-book-v2-trades.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore: update bot state [skip ci]"
+          git push || true
+
+      - name: 🚨 Avisar a Telegram si algo falló
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHANNEL_ID}" \
+            -d parse_mode=HTML \
+            -d disable_web_page_preview=true \
+            --data-urlencode text="🚨 <b>Football Bot falló</b>%0AModo: ${{ steps.action.outputs.mode }}%0ARun: <a href=\"${RUN_URL}\">ver logs</a>" \
+            > /dev/null || true
+
+      - name: 💓 Healthcheck ping (dead man's switch)
+        # Opcional. Si defines el secret HEALTHCHECK_URL (p. ej. de healthchecks.io)
+        # te avisa cuando GitHub Actions deja de correr (crons pausados, cuota agotada…)
+        if: success() && env.HEALTHCHECK_URL != ''
+        env:
+          HEALTHCHECK_URL: ${{ secrets.HEALTHCHECK_URL }}
+        run: curl -fsS --retry 3 -m 10 "$HEALTHCHECK_URL" > /dev/null || true

@@ -1,0 +1,168 @@
+[
+  {
+    "name": "BASELINE (actual)",
+    "zones": [
+      [
+        2.3,
+        2.6
+      ],
+      [
+        3,
+        3.5
+      ]
+    ],
+    "profit": 3092,
+    "roi": 13.02849154357603,
+    "sharpe": 0.6614751663814149,
+    "totalBets": 130,
+    "wins": 57,
+    "winRate": 43.84615384615385,
+    "finalBR": 8092,
+    "dd": 45.98049405136756,
+    "avgBetSize": 182.58191028840412,
+    "totalStaked": 23736,
+    "months": 19,
+    "positiveMonths": 11,
+    "avgMonthlyProfit": 162.75773349806101
+  },
+  {
+    "name": "GAP-FILL (rellenar 2.60-3.00)",
+    "zones": [
+      [
+        2.3,
+        3.5
+      ]
+    ],
+    "profit": 2905,
+    "roi": 9.43325406550756,
+    "sharpe": 0.6471809881865483,
+    "totalBets": 199,
+    "wins": 82,
+    "winRate": 41.20603015075377,
+    "finalBR": 7905,
+    "dd": 50.929670934921965,
+    "avgBetSize": 154.76747158983815,
+    "totalStaked": 30799,
+    "months": 20,
+    "positiveMonths": 14,
+    "avgMonthlyProfit": 145.26610761802507
+  },
+  {
+    "name": "EXTEND-DOWN (2.00-2.60 + 3.00-3.50)",
+    "zones": [
+      [
+        2,
+        2.6
+      ],
+      [
+        3,
+        3.5
+      ]
+    ],
+    "profit": 2367,
+    "roi": 8.66306355321848,
+    "sharpe": 0.15343359875251927,
+    "totalBets": 173,
+    "wins": 76,
+    "winRate": 43.93063583815029,
+    "finalBR": 7367,
+    "dd": 50.3260258957813,
+    "avgBetSize": 157.9442377995898,
+    "totalStaked": 27324,
+    "months": 20,
+    "positiveMonths": 11,
+    "avgMonthlyProfit": 118.35630389829616
+  },
+  {
+    "name": "EXTEND-UP (2.30-2.60 + 3.00-4.00)",
+    "zones": [
+      [
+        2.3,
+        2.6
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "profit": 3782,
+    "roi": 10.297925529711213,
+    "sharpe": 0.6365339795717821,
+    "totalBets": 166,
+    "wins": 68,
+    "winRate": 40.963855421686745,
+    "finalBR": 8782,
+    "dd": 52.295946227997234,
+    "avgBetSize": 221.24158351774304,
+    "totalStaked": 36726,
+    "months": 19,
+    "positiveMonths": 10,
+    "avgMonthlyProfit": 199.05403804706467
+  },
+  {
+    "name": "WIDE (1.90-3.50 todo)",
+    "zones": [
+      [
+        1.9,
+        3.5
+      ]
+    ],
+    "profit": 2460,
+    "roi": 7.317624517224942,
+    "sharpe": 0.46973333070641177,
+    "totalBets": 239,
+    "wins": 101,
+    "winRate": 42.25941422594142,
+    "finalBR": 7460,
+    "dd": 52.09135467665662,
+    "avgBetSize": 140.66191234708666,
+    "totalStaked": 33618,
+    "months": 20,
+    "positiveMonths": 15,
+    "avgMonthlyProfit": 123.00267148247909
+  },
+  {
+    "name": "VERY-WIDE (1.70-4.00 todo)",
+    "zones": [
+      [
+        1.7,
+        4
+      ]
+    ],
+    "profit": 2708,
+    "roi": 5.79100308953018,
+    "sharpe": 0.2311151525181337,
+    "totalBets": 283,
+    "wins": 114,
+    "winRate": 40.282685512367486,
+    "finalBR": 7708,
+    "dd": 50.65189634290246,
+    "avgBetSize": 165.22269281566875,
+    "totalStaked": 46758,
+    "months": 20,
+    "positiveMonths": 12,
+    "avgMonthlyProfit": 135.38792512467876
+  },
+  {
+    "name": "NO ZONES (solo edge filtra)",
+    "zones": [
+      [
+        1.01,
+        100
+      ]
+    ],
+    "profit": 3712,
+    "roi": 4.732210385782114,
+    "sharpe": 0.545459676260161,
+    "totalBets": 377,
+    "wins": 137,
+    "winRate": 36.339522546419104,
+    "finalBR": 8712,
+    "dd": 66.12078232633252,
+    "avgBetSize": 208.07324824952758,
+    "totalStaked": 78444,
+    "months": 20,
+    "positiveMonths": 13,
+    "avgMonthlyProfit": 185.6058438307138
+  }
+]

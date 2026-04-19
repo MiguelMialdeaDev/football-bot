@@ -1,0 +1,1073 @@
+{
+  "bankroll": 2400,
+  "totalBet": 2600,
+  "totalSettled": 0,
+  "totalProfit": 0,
+  "winCount": 0,
+  "lossCount": 0,
+  "openBets": [
+    {
+      "eventId": "Barcelona_Espanyol_2026-04-11T16:30:00Z",
+      "sport": "La Liga",
+      "sportKey": "soccer_spain_la_liga",
+      "homeTeam": "Barcelona",
+      "awayTeam": "Espanyol",
+      "event": "Barcelona vs Espanyol",
+      "date": "2026-04-11T16:30:00Z",
+      "dateFormatted": "11/4 18:30",
+      "placedAt": "2026-04-07T12:48:47.044Z",
+      "totalStake": 100,
+      "profitPct": "1.07%",
+      "profitNum": 1.0675348273773588,
+      "guaranteedReturn": 101.08,
+      "expectedProfit": 1.08,
+      "bets": [
+        {
+          "outcome": "Barcelona",
+          "odds": 1.27,
+          "bookmaker": "1xBet",
+          "stake": 79.59,
+          "payout": 101.08
+        },
+        {
+          "outcome": "Espanyol",
+          "odds": 13,
+          "bookmaker": "Unibet (NL)",
+          "stake": 7.78,
+          "payout": 101.08
+        },
+        {
+          "outcome": "Draw",
+          "odds": 8,
+          "bookmaker": "Unibet (NL)",
+          "stake": 12.63,
+          "payout": 101.08
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "CA Osasuna_Real Betis_2026-04-12T12:00:00Z",
+      "sport": "La Liga",
+      "sportKey": "soccer_spain_la_liga",
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Real Betis",
+      "event": "CA Osasuna vs Real Betis",
+      "date": "2026-04-12T12:00:00Z",
+      "dateFormatted": "12/4 14:00",
+      "placedAt": "2026-04-07T12:48:47.044Z",
+      "totalStake": 100,
+      "profitPct": "0.74%",
+      "profitNum": 0.7351867346816032,
+      "guaranteedReturn": 100.74,
+      "expectedProfit": 0.74,
+      "bets": [
+        {
+          "outcome": "CA Osasuna",
+          "odds": 2.38,
+          "bookmaker": "Unibet (SE)",
+          "stake": 42.33,
+          "payout": 100.74
+        },
+        {
+          "outcome": "Real Betis",
+          "odds": 3.35,
+          "bookmaker": "Betfair",
+          "stake": 30.07,
+          "payout": 100.74
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.65,
+          "bookmaker": "1xBet",
+          "stake": 27.6,
+          "payout": 100.74
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Celta Vigo_Oviedo_2026-04-12T16:30:00Z",
+      "sport": "La Liga",
+      "sportKey": "soccer_spain_la_liga",
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Oviedo",
+      "event": "Celta Vigo vs Oviedo",
+      "date": "2026-04-12T16:30:00Z",
+      "dateFormatted": "12/4 18:30",
+      "placedAt": "2026-04-07T12:48:47.044Z",
+      "totalStake": 100,
+      "profitPct": "0.77%",
+      "profitNum": 0.7724301841948944,
+      "guaranteedReturn": 100.78,
+      "expectedProfit": 0.78,
+      "bets": [
+        {
+          "outcome": "Celta Vigo",
+          "odds": 1.7,
+          "bookmaker": "Betfair",
+          "stake": 59.28,
+          "payout": 100.78
+        },
+        {
+          "outcome": "Oviedo",
+          "odds": 5.5,
+          "bookmaker": "Smarkets",
+          "stake": 18.32,
+          "payout": 100.78
+        },
+        {
+          "outcome": "Draw",
+          "odds": 4.5,
+          "bookmaker": "Unibet (NL)",
+          "stake": 22.4,
+          "payout": 100.78
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Real Madrid_Alavés_2026-04-21T19:30:00Z",
+      "sport": "La Liga",
+      "sportKey": "soccer_spain_la_liga",
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Alavés",
+      "event": "Real Madrid vs Alavés",
+      "date": "2026-04-21T19:30:00Z",
+      "dateFormatted": "21/4 21:30",
+      "placedAt": "2026-04-07T12:48:47.044Z",
+      "totalStake": 100,
+      "profitPct": "1.99%",
+      "profitNum": 1.988518943742834,
+      "guaranteedReturn": 102.03,
+      "expectedProfit": 2.03,
+      "bets": [
+        {
+          "outcome": "Alavés",
+          "odds": 12.5,
+          "bookmaker": "Betfair",
+          "stake": 8.16,
+          "payout": 102.03
+        },
+        {
+          "outcome": "Real Madrid",
+          "odds": 1.34,
+          "bookmaker": "1xBet",
+          "stake": 76.14,
+          "payout": 102.03
+        },
+        {
+          "outcome": "Draw",
+          "odds": 6.5,
+          "bookmaker": "Tipico",
+          "stake": 15.7,
+          "payout": 102.03
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Barcelona_Celta Vigo_2026-04-22T19:30:00Z",
+      "sport": "La Liga",
+      "sportKey": "soccer_spain_la_liga",
+      "homeTeam": "Barcelona",
+      "awayTeam": "Celta Vigo",
+      "event": "Barcelona vs Celta Vigo",
+      "date": "2026-04-22T19:30:00Z",
+      "dateFormatted": "22/4 21:30",
+      "placedAt": "2026-04-07T12:48:47.045Z",
+      "totalStake": 100,
+      "profitPct": "2.51%",
+      "profitNum": 2.5132275132275117,
+      "guaranteedReturn": 102.58,
+      "expectedProfit": 2.58,
+      "bets": [
+        {
+          "outcome": "Barcelona",
+          "odds": 1.35,
+          "bookmaker": "1xBet",
+          "stake": 75.98,
+          "payout": 102.58
+        },
+        {
+          "outcome": "Celta Vigo",
+          "odds": 10.5,
+          "bookmaker": "Nordic Bet",
+          "stake": 9.77,
+          "payout": 102.58
+        },
+        {
+          "outcome": "Draw",
+          "odds": 7.2,
+          "bookmaker": "Tipico",
+          "stake": 14.25,
+          "payout": 102.58
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Crystal Palace_Newcastle United_2026-04-12T13:00:00Z",
+      "sport": "Premier League",
+      "sportKey": "soccer_epl",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "Newcastle United",
+      "event": "Crystal Palace vs Newcastle United",
+      "date": "2026-04-12T13:00:00Z",
+      "dateFormatted": "12/4 15:00",
+      "placedAt": "2026-04-07T12:48:48.398Z",
+      "totalStake": 100,
+      "profitPct": "1.28%",
+      "profitNum": 1.2782928060913967,
+      "guaranteedReturn": 101.29,
+      "expectedProfit": 1.29,
+      "bets": [
+        {
+          "outcome": "Crystal Palace",
+          "odds": 3.1,
+          "bookmaker": "Matchbook",
+          "stake": 32.68,
+          "payout": 101.29
+        },
+        {
+          "outcome": "Newcastle United",
+          "odds": 2.55,
+          "bookmaker": "Unibet (SE)",
+          "stake": 39.72,
+          "payout": 101.29
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.67,
+          "bookmaker": "1xBet",
+          "stake": 27.6,
+          "payout": 101.29
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Chelsea_Manchester City_2026-04-12T15:30:00Z",
+      "sport": "Premier League",
+      "sportKey": "soccer_epl",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Manchester City",
+      "event": "Chelsea vs Manchester City",
+      "date": "2026-04-12T15:30:00Z",
+      "dateFormatted": "12/4 17:30",
+      "placedAt": "2026-04-07T12:48:48.398Z",
+      "totalStake": 100,
+      "profitPct": "1.98%",
+      "profitNum": 1.9813917083270294,
+      "guaranteedReturn": 102.02,
+      "expectedProfit": 2.02,
+      "bets": [
+        {
+          "outcome": "Chelsea",
+          "odds": 3.45,
+          "bookmaker": "Unibet (NL)",
+          "stake": 29.57,
+          "payout": 102.02
+        },
+        {
+          "outcome": "Manchester City",
+          "odds": 2.24,
+          "bookmaker": "1xBet",
+          "stake": 45.55,
+          "payout": 102.02
+        },
+        {
+          "outcome": "Draw",
+          "odds": 4.1,
+          "bookmaker": "Winamax (DE)",
+          "stake": 24.88,
+          "payout": 102.02
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Chelsea_Manchester United_2026-04-18T19:00:00Z",
+      "sport": "Premier League",
+      "sportKey": "soccer_epl",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Manchester United",
+      "event": "Chelsea vs Manchester United",
+      "date": "2026-04-18T19:00:00Z",
+      "dateFormatted": "18/4 21:00",
+      "placedAt": "2026-04-07T12:48:48.399Z",
+      "totalStake": 100,
+      "profitPct": "0.57%",
+      "profitNum": 0.5719501064800792,
+      "guaranteedReturn": 100.58,
+      "expectedProfit": 0.58,
+      "bets": [
+        {
+          "outcome": "Chelsea",
+          "odds": 2.28,
+          "bookmaker": "Unibet (NL)",
+          "stake": 44.11,
+          "payout": 100.58
+        },
+        {
+          "outcome": "Manchester United",
+          "odds": 3.46,
+          "bookmaker": "1xBet",
+          "stake": 29.07,
+          "payout": 100.58
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.75,
+          "bookmaker": "888sport",
+          "stake": 26.82,
+          "payout": 100.58
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Everton_Liverpool_2026-04-19T13:00:00Z",
+      "sport": "Premier League",
+      "sportKey": "soccer_epl",
+      "homeTeam": "Everton",
+      "awayTeam": "Liverpool",
+      "event": "Everton vs Liverpool",
+      "date": "2026-04-19T13:00:00Z",
+      "dateFormatted": "19/4 15:00",
+      "placedAt": "2026-04-07T12:48:48.399Z",
+      "totalStake": 100,
+      "profitPct": "0.51%",
+      "profitNum": 0.5105105105105201,
+      "guaranteedReturn": 100.51,
+      "expectedProfit": 0.51,
+      "bets": [
+        {
+          "outcome": "Everton",
+          "odds": 3.6,
+          "bookmaker": "1xBet",
+          "stake": 27.92,
+          "payout": 100.51
+        },
+        {
+          "outcome": "Liverpool",
+          "odds": 2.22,
+          "bookmaker": "Betfair",
+          "stake": 45.28,
+          "payout": 100.51
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.75,
+          "bookmaker": "Paddy Power",
+          "stake": 26.8,
+          "payout": 100.51
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Crystal Palace_West Ham United_2026-04-20T19:00:00Z",
+      "sport": "Premier League",
+      "sportKey": "soccer_epl",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "West Ham United",
+      "event": "Crystal Palace vs West Ham United",
+      "date": "2026-04-20T19:00:00Z",
+      "dateFormatted": "20/4 21:00",
+      "placedAt": "2026-04-07T12:48:48.399Z",
+      "totalStake": 100,
+      "profitPct": "1.01%",
+      "profitNum": 1.0101010101010166,
+      "guaranteedReturn": 101.02,
+      "expectedProfit": 1.02,
+      "bets": [
+        {
+          "outcome": "Crystal Palace",
+          "odds": 2.25,
+          "bookmaker": "1xBet",
+          "stake": 44.9,
+          "payout": 101.02
+        },
+        {
+          "outcome": "West Ham United",
+          "odds": 3.85,
+          "bookmaker": "Betfair",
+          "stake": 26.24,
+          "payout": 101.02
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.5,
+          "bookmaker": "Unibet (NL)",
+          "stake": 28.86,
+          "payout": 101.02
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "1. FC Heidenheim_Union Berlin_2026-04-11T13:30:00Z",
+      "sport": "Bundesliga",
+      "sportKey": "soccer_germany_bundesliga",
+      "homeTeam": "1. FC Heidenheim",
+      "awayTeam": "Union Berlin",
+      "event": "1. FC Heidenheim vs Union Berlin",
+      "date": "2026-04-11T13:30:00Z",
+      "dateFormatted": "11/4 15:30",
+      "placedAt": "2026-04-07T12:48:49.163Z",
+      "totalStake": 100,
+      "profitPct": "1.03%",
+      "profitNum": 1.0314936153106968,
+      "guaranteedReturn": 101.04,
+      "expectedProfit": 1.04,
+      "bets": [
+        {
+          "outcome": "1. FC Heidenheim",
+          "odds": 3.45,
+          "bookmaker": "Unibet (SE)",
+          "stake": 29.29,
+          "payout": 101.04
+        },
+        {
+          "outcome": "Union Berlin",
+          "odds": 2.34,
+          "bookmaker": "Betfair",
+          "stake": 43.18,
+          "payout": 101.04
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.67,
+          "bookmaker": "1xBet",
+          "stake": 27.53,
+          "payout": 101.04
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "VfL Wolfsburg_Eintracht Frankfurt_2026-04-11T13:30:00Z",
+      "sport": "Bundesliga",
+      "sportKey": "soccer_germany_bundesliga",
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "Eintracht Frankfurt",
+      "event": "VfL Wolfsburg vs Eintracht Frankfurt",
+      "date": "2026-04-11T13:30:00Z",
+      "dateFormatted": "11/4 15:30",
+      "placedAt": "2026-04-07T12:48:49.163Z",
+      "totalStake": 100,
+      "profitPct": "0.72%",
+      "profitNum": 0.717703349282306,
+      "guaranteedReturn": 100.72,
+      "expectedProfit": 0.72,
+      "bets": [
+        {
+          "outcome": "Eintracht Frankfurt",
+          "odds": 2.8,
+          "bookmaker": "Unibet (SE)",
+          "stake": 35.97,
+          "payout": 100.72
+        },
+        {
+          "outcome": "VfL Wolfsburg",
+          "odds": 2.66,
+          "bookmaker": "1xBet",
+          "stake": 37.87,
+          "payout": 100.72
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.85,
+          "bookmaker": "Coolbet",
+          "stake": 26.16,
+          "payout": 100.72
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "FC St. Pauli_Bayern Munich_2026-04-11T16:30:00Z",
+      "sport": "Bundesliga",
+      "sportKey": "soccer_germany_bundesliga",
+      "homeTeam": "FC St. Pauli",
+      "awayTeam": "Bayern Munich",
+      "event": "FC St. Pauli vs Bayern Munich",
+      "date": "2026-04-11T16:30:00Z",
+      "dateFormatted": "11/4 18:30",
+      "placedAt": "2026-04-07T12:48:49.163Z",
+      "totalStake": 100,
+      "profitPct": "0.58%",
+      "profitNum": 0.5825734549138706,
+      "guaranteedReturn": 100.59,
+      "expectedProfit": 0.59,
+      "bets": [
+        {
+          "outcome": "Bayern Munich",
+          "odds": 1.41,
+          "bookmaker": "Betfair",
+          "stake": 71.34,
+          "payout": 100.59
+        },
+        {
+          "outcome": "FC St. Pauli",
+          "odds": 9.4,
+          "bookmaker": "Smarkets",
+          "stake": 10.7,
+          "payout": 100.59
+        },
+        {
+          "outcome": "Draw",
+          "odds": 5.6,
+          "bookmaker": "Winamax (DE)",
+          "stake": 17.96,
+          "payout": 100.59
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "FSV Mainz 05_SC Freiburg_2026-04-12T17:30:00Z",
+      "sport": "Bundesliga",
+      "sportKey": "soccer_germany_bundesliga",
+      "homeTeam": "FSV Mainz 05",
+      "awayTeam": "SC Freiburg",
+      "event": "FSV Mainz 05 vs SC Freiburg",
+      "date": "2026-04-12T17:30:00Z",
+      "dateFormatted": "12/4 19:30",
+      "placedAt": "2026-04-07T12:48:49.164Z",
+      "totalStake": 100,
+      "profitPct": "0.62%",
+      "profitNum": 0.6194954470816638,
+      "guaranteedReturn": 100.62,
+      "expectedProfit": 0.62,
+      "bets": [
+        {
+          "outcome": "FSV Mainz 05",
+          "odds": 2.32,
+          "bookmaker": "Betsson",
+          "stake": 43.37,
+          "payout": 100.62
+        },
+        {
+          "outcome": "SC Freiburg",
+          "odds": 3.85,
+          "bookmaker": "Unibet (SE)",
+          "stake": 26.14,
+          "payout": 100.62
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.3,
+          "bookmaker": "888sport",
+          "stake": 30.49,
+          "payout": 100.62
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Bayern Munich_VfB Stuttgart_2026-04-19T15:30:00Z",
+      "sport": "Bundesliga",
+      "sportKey": "soccer_germany_bundesliga",
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "VfB Stuttgart",
+      "event": "Bayern Munich vs VfB Stuttgart",
+      "date": "2026-04-19T15:30:00Z",
+      "dateFormatted": "19/4 17:30",
+      "placedAt": "2026-04-07T12:48:49.164Z",
+      "totalStake": 100,
+      "profitPct": "2.71%",
+      "profitNum": 2.7080762374879996,
+      "guaranteedReturn": 102.78,
+      "expectedProfit": 2.78,
+      "bets": [
+        {
+          "outcome": "Bayern Munich",
+          "odds": 1.43,
+          "bookmaker": "1xBet",
+          "stake": 71.88,
+          "payout": 102.78
+        },
+        {
+          "outcome": "VfB Stuttgart",
+          "odds": 9.35,
+          "bookmaker": "BetOnline.ag",
+          "stake": 10.99,
+          "payout": 102.78
+        },
+        {
+          "outcome": "Draw",
+          "odds": 6,
+          "bookmaker": "Unibet (NL)",
+          "stake": 17.13,
+          "payout": 102.78
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "AS Roma_Pisa_2026-04-10T18:45:00Z",
+      "sport": "Serie A",
+      "sportKey": "soccer_italy_serie_a",
+      "homeTeam": "AS Roma",
+      "awayTeam": "Pisa",
+      "event": "AS Roma vs Pisa",
+      "date": "2026-04-10T18:45:00Z",
+      "dateFormatted": "10/4 20:45",
+      "placedAt": "2026-04-07T12:48:49.848Z",
+      "totalStake": 100,
+      "profitPct": "0.53%",
+      "profitNum": 0.5291005291005346,
+      "guaranteedReturn": 100.53,
+      "expectedProfit": 0.53,
+      "bets": [
+        {
+          "outcome": "AS Roma",
+          "odds": 1.4,
+          "bookmaker": "1xBet",
+          "stake": 71.81,
+          "payout": 100.53
+        },
+        {
+          "outcome": "Pisa",
+          "odds": 10.5,
+          "bookmaker": "Unibet (NL)",
+          "stake": 9.57,
+          "payout": 100.53
+        },
+        {
+          "outcome": "Draw",
+          "odds": 5.4,
+          "bookmaker": "Winamax (DE)",
+          "stake": 18.62,
+          "payout": 100.53
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Cagliari_Cremonese_2026-04-11T13:00:00Z",
+      "sport": "Serie A",
+      "sportKey": "soccer_italy_serie_a",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Cremonese",
+      "event": "Cagliari vs Cremonese",
+      "date": "2026-04-11T13:00:00Z",
+      "dateFormatted": "11/4 15:00",
+      "placedAt": "2026-04-07T12:48:49.848Z",
+      "totalStake": 100,
+      "profitPct": "0.98%",
+      "profitNum": 0.9808762055231846,
+      "guaranteedReturn": 100.99,
+      "expectedProfit": 0.99,
+      "bets": [
+        {
+          "outcome": "Cagliari",
+          "odds": 2.28,
+          "bookmaker": "GTbets",
+          "stake": 44.29,
+          "payout": 100.99
+        },
+        {
+          "outcome": "Cremonese",
+          "odds": 4.1,
+          "bookmaker": "Matchbook",
+          "stake": 24.63,
+          "payout": 100.99
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.25,
+          "bookmaker": "Unibet (NL)",
+          "stake": 31.07,
+          "payout": 100.99
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "AC Milan_Udinese_2026-04-11T16:00:00Z",
+      "sport": "Serie A",
+      "sportKey": "soccer_italy_serie_a",
+      "homeTeam": "AC Milan",
+      "awayTeam": "Udinese",
+      "event": "AC Milan vs Udinese",
+      "date": "2026-04-11T16:00:00Z",
+      "dateFormatted": "11/4 18:00",
+      "placedAt": "2026-04-07T12:48:49.848Z",
+      "totalStake": 100,
+      "profitPct": "2.36%",
+      "profitNum": 2.359590250794774,
+      "guaranteedReturn": 102.42,
+      "expectedProfit": 2.42,
+      "bets": [
+        {
+          "outcome": "AC Milan",
+          "odds": 1.49,
+          "bookmaker": "1xBet",
+          "stake": 68.74,
+          "payout": 102.42
+        },
+        {
+          "outcome": "Udinese",
+          "odds": 9.5,
+          "bookmaker": "Unibet (NL)",
+          "stake": 10.78,
+          "payout": 102.42
+        },
+        {
+          "outcome": "Draw",
+          "odds": 5,
+          "bookmaker": "Betfair",
+          "stake": 20.48,
+          "payout": 102.42
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Parma_Napoli_2026-04-12T13:00:00Z",
+      "sport": "Serie A",
+      "sportKey": "soccer_italy_serie_a",
+      "homeTeam": "Parma",
+      "awayTeam": "Napoli",
+      "event": "Parma vs Napoli",
+      "date": "2026-04-12T13:00:00Z",
+      "dateFormatted": "12/4 15:00",
+      "placedAt": "2026-04-07T12:48:49.848Z",
+      "totalStake": 100,
+      "profitPct": "0.90%",
+      "profitNum": 0.8954678362573132,
+      "guaranteedReturn": 100.9,
+      "expectedProfit": 0.9,
+      "bets": [
+        {
+          "outcome": "Napoli",
+          "odds": 1.71,
+          "bookmaker": "Unibet (NL)",
+          "stake": 59.01,
+          "payout": 100.9
+        },
+        {
+          "outcome": "Parma",
+          "odds": 6.4,
+          "bookmaker": "Betfair",
+          "stake": 15.77,
+          "payout": 100.9
+        },
+        {
+          "outcome": "Draw",
+          "odds": 4,
+          "bookmaker": "Winamax (DE)",
+          "stake": 25.23,
+          "payout": 100.9
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Bologna_Lecce_2026-04-12T16:00:00Z",
+      "sport": "Serie A",
+      "sportKey": "soccer_italy_serie_a",
+      "homeTeam": "Bologna",
+      "awayTeam": "Lecce",
+      "event": "Bologna vs Lecce",
+      "date": "2026-04-12T16:00:00Z",
+      "dateFormatted": "12/4 18:00",
+      "placedAt": "2026-04-07T12:48:49.848Z",
+      "totalStake": 100,
+      "profitPct": "1.07%",
+      "profitNum": 1.0721247563352798,
+      "guaranteedReturn": 101.08,
+      "expectedProfit": 1.08,
+      "bets": [
+        {
+          "outcome": "Bologna",
+          "odds": 1.9,
+          "bookmaker": "1xBet",
+          "stake": 53.2,
+          "payout": 101.08
+        },
+        {
+          "outcome": "Lecce",
+          "odds": 5.4,
+          "bookmaker": "Unibet (NL)",
+          "stake": 18.72,
+          "payout": 101.08
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.6,
+          "bookmaker": "Unibet (NL)",
+          "stake": 28.08,
+          "payout": 101.08
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Inter Milan_Cagliari_2026-04-17T18:45:00Z",
+      "sport": "Serie A",
+      "sportKey": "soccer_italy_serie_a",
+      "homeTeam": "Inter Milan",
+      "awayTeam": "Cagliari",
+      "event": "Inter Milan vs Cagliari",
+      "date": "2026-04-17T18:45:00Z",
+      "dateFormatted": "17/4 20:45",
+      "placedAt": "2026-04-07T12:48:49.848Z",
+      "totalStake": 100,
+      "profitPct": "1.77%",
+      "profitNum": 1.7726630325055615,
+      "guaranteedReturn": 101.8,
+      "expectedProfit": 1.8,
+      "bets": [
+        {
+          "outcome": "Cagliari",
+          "odds": 15,
+          "bookmaker": "LeoVegas (SE)",
+          "stake": 6.79,
+          "payout": 101.8
+        },
+        {
+          "outcome": "Inter Milan",
+          "odds": 1.27,
+          "bookmaker": "1xBet",
+          "stake": 80.16,
+          "payout": 101.8
+        },
+        {
+          "outcome": "Draw",
+          "odds": 7.8,
+          "bookmaker": "Tipico",
+          "stake": 13.05,
+          "payout": 101.8
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Udinese_Parma_2026-04-18T13:00:00Z",
+      "sport": "Serie A",
+      "sportKey": "soccer_italy_serie_a",
+      "homeTeam": "Udinese",
+      "awayTeam": "Parma",
+      "event": "Udinese vs Parma",
+      "date": "2026-04-18T13:00:00Z",
+      "dateFormatted": "18/4 15:00",
+      "placedAt": "2026-04-07T12:48:49.848Z",
+      "totalStake": 100,
+      "profitPct": "1.33%",
+      "profitNum": 1.3348848587428686,
+      "guaranteedReturn": 101.35,
+      "expectedProfit": 1.35,
+      "bets": [
+        {
+          "outcome": "Parma",
+          "odds": 4.1,
+          "bookmaker": "Unibet (NL)",
+          "stake": 24.72,
+          "payout": 101.35
+        },
+        {
+          "outcome": "Udinese",
+          "odds": 2.38,
+          "bookmaker": "Betsson",
+          "stake": 42.59,
+          "payout": 101.35
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.1,
+          "bookmaker": "Sky Bet",
+          "stake": 32.69,
+          "payout": 101.35
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Paris FC_AS Monaco_2026-04-10T17:00:00Z",
+      "sport": "Ligue 1",
+      "sportKey": "soccer_france_ligue_one",
+      "homeTeam": "Paris FC",
+      "awayTeam": "AS Monaco",
+      "event": "Paris FC vs AS Monaco",
+      "date": "2026-04-10T17:00:00Z",
+      "dateFormatted": "10/4 19:00",
+      "placedAt": "2026-04-07T12:48:50.838Z",
+      "totalStake": 100,
+      "profitPct": "0.66%",
+      "profitNum": 0.6639364606602083,
+      "guaranteedReturn": 100.67,
+      "expectedProfit": 0.67,
+      "bets": [
+        {
+          "outcome": "AS Monaco",
+          "odds": 2.04,
+          "bookmaker": "Unibet (SE)",
+          "stake": 49.35,
+          "payout": 100.67
+        },
+        {
+          "outcome": "Paris FC",
+          "odds": 4,
+          "bookmaker": "Betfair",
+          "stake": 25.17,
+          "payout": 100.67
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.95,
+          "bookmaker": "Winamax (DE)",
+          "stake": 25.49,
+          "payout": 100.67
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Nice_Le Havre_2026-04-12T15:15:00Z",
+      "sport": "Ligue 1",
+      "sportKey": "soccer_france_ligue_one",
+      "homeTeam": "Nice",
+      "awayTeam": "Le Havre",
+      "event": "Nice vs Le Havre",
+      "date": "2026-04-12T15:15:00Z",
+      "dateFormatted": "12/4 17:15",
+      "placedAt": "2026-04-07T12:48:50.838Z",
+      "totalStake": 100,
+      "profitPct": "0.78%",
+      "profitNum": 0.7819718848961377,
+      "guaranteedReturn": 100.79,
+      "expectedProfit": 0.79,
+      "bets": [
+        {
+          "outcome": "Le Havre",
+          "odds": 4.73,
+          "bookmaker": "BetOnline.ag",
+          "stake": 21.31,
+          "payout": 100.79
+        },
+        {
+          "outcome": "Nice",
+          "odds": 2.02,
+          "bookmaker": "Betsson",
+          "stake": 49.9,
+          "payout": 100.79
+        },
+        {
+          "outcome": "Draw",
+          "odds": 3.5,
+          "bookmaker": "Codere (IT)",
+          "stake": 28.8,
+          "payout": 100.79
+        }
+      ],
+      "status": "OPEN",
+      "result": null
+    },
+    {
+      "eventId": "Indiana Pacers_Minnesota Timberwolves_2026-04-07T23:10:00Z",
+      "sport": "NBA",
+      "sportKey": "basketball_nba",
+      "homeTeam": "Indiana Pacers",
+      "awayTeam": "Minnesota Timberwolves",
+      "event": "Indiana Pacers vs Minnesota Timberwolves",
+      "date": "2026-04-07T23:10:00Z",
+      "dateFormatted": "8/4 1:10",
+      "placedAt": "2026-04-07T12:48:51.489Z",
+      "totalStake": 100,
+      "profitPct": "0.64%",
+      "profitNum": 0.6410256410256387,
+      "guaranteedReturn": 100.65,
+      "expectedProfit": 0.65,
+      "bets": [
+        {
+          "outcome": "Indiana Pacers",
+          "odds": 7.2,
+          "bookmaker": "Matchbook",
+          "stake": 13.98,
+          "payout": 100.65
+        },
+        {
+          "outcome": "Minnesota Timberwolves",
+          "odds": 1.17,
+          "bookmaker": "1xBet",
+          "stake": 86.02,
+          "payout": 100.65
+        }
+      ],
+      "status": "OPEN",
+      "result": null,
+      "oddsStatus": "STABLE",
+      "currentProfitPct": "0.64%",
+      "lastVerified": "2026-04-07T12:48:53.452Z"
+    },
+    {
+      "eventId": "Boston Celtics_Charlotte Hornets_2026-04-08T00:10:00Z",
+      "sport": "NBA",
+      "sportKey": "basketball_nba",
+      "homeTeam": "Boston Celtics",
+      "awayTeam": "Charlotte Hornets",
+      "event": "Boston Celtics vs Charlotte Hornets",
+      "date": "2026-04-08T00:10:00Z",
+      "dateFormatted": "8/4 2:10",
+      "placedAt": "2026-04-07T12:48:51.489Z",
+      "totalStake": 100,
+      "profitPct": "0.86%",
+      "profitNum": 0.8567390920332096,
+      "guaranteedReturn": 100.86,
+      "expectedProfit": 0.86,
+      "bets": [
+        {
+          "outcome": "Boston Celtics",
+          "odds": 1.53,
+          "bookmaker": "Matchbook",
+          "stake": 65.92,
+          "payout": 100.86
+        },
+        {
+          "outcome": "Charlotte Hornets",
+          "odds": 2.96,
+          "bookmaker": "1xBet",
+          "stake": 34.08,
+          "payout": 100.86
+        }
+      ],
+      "status": "OPEN",
+      "result": null,
+      "oddsStatus": "STABLE",
+      "currentProfitPct": "0.86%",
+      "lastVerified": "2026-04-07T12:48:53.452Z"
+    }
+  ],
+  "settledBets": [],
+  "scans": 1,
+  "apiCalls": 17,
+  "apiCallsRemaining": 326,
+  "startTime": 1775566125988
+}
