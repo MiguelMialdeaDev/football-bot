@@ -1,5 +1,11 @@
 # Football Betting Bot
 
+> **⚠️ Status: honest negative result.** Walk-forward audit (see
+> [`scripts/holdout-audit.js`](./scripts/holdout-audit.js)) shows the model
+> **loses money** out-of-sample (-8% ROI with shrink, -18% without). The
+> original backtest showing +36% ROI was overfitting. Kept public as an
+> engineering exercise and an honest post-mortem — don't use this to risk real money.
+
 Bot de value betting de fútbol con modelo Poisson. Detecta oportunidades con edge
 positivo en varias ligas europeas, envía señales a Telegram y registra los
 resultados en paper trading para comparar dos variantes de estrategia (baseline y
@@ -123,7 +129,49 @@ telegram-bot-state.json  Señales pendientes y resultados (auto-commit)
   Cabe con margen pero revisa tu uso.
 - **GitHub Actions:** si el repo es privado, 2.000 min/mes gratis. Cada run
   tarda ~2 min. 3 runs/día × 30 días = 180 min/mes. Sobra.
-- **Sobreajuste del backtest:** los ROIs históricos del predictor
-  (`1X2_H +36%`, `Over +31.4%`) son de backtest. La realidad live puede
-  divergir. Validar con 4-8 semanas de paper trading antes de arriesgar dinero
-  real o ofrecerlo como tipster.
+
+## Auditoría (lee esto antes de tomar el modelo en serio)
+
+Se ejecutó una auditoría walk-forward temporal honesta (entrenar solo con
+temporadas anteriores, validar sobre la temporada que el modelo nunca vio,
+simular apuestas con odds históricas reales de B365/BW/IW/WH/VC/PS).
+
+**Resultado:**
+
+| Variante | Apuestas | Win Rate | ROI real |
+|---|---|---|---|
+| BASELINE (con shrink) | 410 | 34.6% | **-8.53%** |
+| EXTEND-UP (con shrink) | 480 | 34.0% | **-6.24%** |
+| BASELINE (sin shrink) | 227 | 30.4% | **-18.28%** |
+| EXTEND-UP (sin shrink) | 278 | 28.4% | **-19.21%** |
+
+**Interpretación:**
+- El backtest original reportaba +36% ROI en 1X2_H. Era sobreajuste — evaluaba
+  el modelo sobre los mismos datos con los que se estimaron sus parámetros.
+- En walk-forward honesto, el sistema pierde dinero consistentemente.
+- El win rate de ~34% en odds medias de 2.8-3.5 coincide con la probabilidad
+  implícita del mercado (1/2.9 ≈ 34.5%). El modelo no bate al mercado, lo empata
+  y pierde por el margen del bookie.
+- Desactivar el `variableShrink` empeora el resultado: confirma que el Poisson
+  base no tiene capacidad predictiva real para este problema; el shrink solo
+  enmascaraba el déficit regresando hacia la media del mercado.
+
+**Qué queda valioso del proyecto:**
+- La infraestructura (GitHub Actions + cron dual + auto-commit de estado +
+  alertas Telegram + widget con fetch de raw JSON) sí es reutilizable para
+  otros bots.
+- La auditoría en sí demuestra por qué hay que desconfiar de cualquier backtest
+  reportado sin walk-forward temporal honesto.
+
+**Qué se podría intentar en el futuro (no planeado):**
+- Modelos alternativos: Dixon-Coles con corrección de empates, xG-based,
+  gradient boosting sobre features ricas (forma Elo, motivación real por
+  posición, rest days, home/away splits profundos).
+- Restringir a una sola liga donde empíricamente haya edge, en vez de
+  promediar 7-11 ligas.
+- Apostar tipos distintos: favoritos fuertes, over/under, handicap.
+
+**Archivos clave de la auditoría:**
+- `scripts/holdout-audit.js` — versión con shrink (modelo tal como se usa)
+- `scripts/holdout-audit-noshrink.js` — variante sin shrink
+- `scripts/holdout-audit-results.json` — raw results con trades detallados
