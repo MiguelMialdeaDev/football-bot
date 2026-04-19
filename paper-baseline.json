@@ -95,6 +95,25 @@
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-19T07:00:16.889Z",
       "status": "PENDING"
+    },
+    {
+      "id": "c960ce15e25f5e703b4f864be1514d75_H_1776604093204",
+      "eventId": "c960ce15e25f5e703b4f864be1514d75",
+      "leagueCode": "D2",
+      "leagueName": "2. Bundesliga",
+      "homeTeam": "SC Preußen Münster",
+      "awayTeam": "Arminia Bielefeld",
+      "commenceTime": "2026-04-26T11:30:00.000Z",
+      "side": "H",
+      "sideLabel": "SC Preußen Münster (Local)",
+      "odds": 2.5974999999999997,
+      "prob": 0.5157048694044616,
+      "edge": 0.1307193063630756,
+      "betPct": 0.03,
+      "stake": 150,
+      "bankrollAtSignal": 5000,
+      "timestamp": "2026-04-19T13:08:13.204Z",
+      "status": "PENDING"
     }
   ],
   "results": [],
