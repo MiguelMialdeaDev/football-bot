@@ -1,5 +1,5 @@
 {
-  "bankroll": 5000,
+  "bankroll": 5057.675,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -58,7 +58,12 @@
       "stake": 150,
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-15T07:26:41.664Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 2,
+      "profit": -150,
+      "settledAt": "2026-04-19T23:29:33.656Z"
     },
     {
       "id": "62480ad9b3a49df456ed85ad1accb355_H_1776238002096",
@@ -96,7 +101,12 @@
       "stake": 150,
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-18T07:00:07.547Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 4,
+      "awayScore": 1,
+      "profit": 207.68,
+      "settledAt": "2026-04-19T23:29:34.070Z"
     },
     {
       "id": "e6f92a95666d74c14d8bdb084d4bc723_H_1776582017073",
@@ -156,11 +166,60 @@
       "status": "PENDING"
     }
   ],
-  "results": [],
-  "totalBets": 0,
-  "wins": 0,
-  "losses": 0,
-  "totalStaked": 0,
-  "totalProfit": 0,
+  "results": [
+    {
+      "id": "928d3b98e52bc68d32e938c1e6d3e094_H_1776238001661",
+      "eventId": "928d3b98e52bc68d32e938c1e6d3e094",
+      "leagueCode": "G1",
+      "leagueName": "Greek Super",
+      "homeTeam": "Panathinaikos",
+      "awayTeam": "Olympiakos Piraeus",
+      "commenceTime": "2026-04-19T18:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Panathinaikos (Local)",
+      "odds": 3.9974999999999996,
+      "prob": 0.32332171623424993,
+      "edge": 0.07316536851692657,
+      "betPct": 0.03,
+      "stake": 150,
+      "bankrollAtSignal": 5000,
+      "timestamp": "2026-04-15T07:26:41.664Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 2,
+      "profit": -150,
+      "settledAt": "2026-04-19T23:29:33.656Z"
+    },
+    {
+      "id": "037f95454878a7b8d08c5f0bba0e0555_H_1776495607547",
+      "eventId": "037f95454878a7b8d08c5f0bba0e0555",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Albacete",
+      "awayTeam": "Granada CF",
+      "commenceTime": "2026-04-19T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Albacete (Local)",
+      "odds": 2.3845,
+      "prob": 0.4803396689866331,
+      "edge": 0.06096453793190465,
+      "betPct": 0.03,
+      "stake": 150,
+      "bankrollAtSignal": 5000,
+      "timestamp": "2026-04-18T07:00:07.547Z",
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 4,
+      "awayScore": 1,
+      "profit": 207.68,
+      "settledAt": "2026-04-19T23:29:34.070Z"
+    }
+  ],
+  "totalBets": 2,
+  "wins": 1,
+  "losses": 1,
+  "totalStaked": 300,
+  "totalProfit": 57.67500000000001,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }

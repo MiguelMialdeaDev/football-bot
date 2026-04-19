@@ -1,5 +1,5 @@
 {
-  "bankroll": 5000,
+  "bankroll": 5207.675,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -77,7 +77,12 @@
       "stake": 150,
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-18T07:00:07.320Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 4,
+      "awayScore": 1,
+      "profit": 207.68,
+      "settledAt": "2026-04-19T23:29:33.146Z"
     },
     {
       "id": "e6f92a95666d74c14d8bdb084d4bc723_H_1776582016887",
@@ -137,11 +142,36 @@
       "status": "PENDING"
     }
   ],
-  "results": [],
-  "totalBets": 0,
-  "wins": 0,
+  "results": [
+    {
+      "id": "037f95454878a7b8d08c5f0bba0e0555_H_1776495607317",
+      "eventId": "037f95454878a7b8d08c5f0bba0e0555",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Albacete",
+      "awayTeam": "Granada CF",
+      "commenceTime": "2026-04-19T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Albacete (Local)",
+      "odds": 2.3845,
+      "prob": 0.4803396689866331,
+      "edge": 0.06096453793190465,
+      "betPct": 0.03,
+      "stake": 150,
+      "bankrollAtSignal": 5000,
+      "timestamp": "2026-04-18T07:00:07.320Z",
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 4,
+      "awayScore": 1,
+      "profit": 207.68,
+      "settledAt": "2026-04-19T23:29:33.146Z"
+    }
+  ],
+  "totalBets": 1,
+  "wins": 1,
   "losses": 0,
-  "totalStaked": 0,
-  "totalProfit": 0,
+  "totalStaked": 150,
+  "totalProfit": 207.675,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
