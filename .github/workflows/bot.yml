@@ -8,7 +8,16 @@ on:
     - cron: '0 9,18 * * *'    # 09:00 y 18:00 UTC
     # Verificación de resultados: cada noche tras terminarse los partidos.
     - cron: '0 23 * * *'      # 23:00 UTC
-  workflow_dispatch:           # Lanzarlo manualmente desde GitHub
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Modo a ejecutar'
+        required: true
+        default: 'scan'
+        type: choice
+        options:
+          - scan
+          - results
 
 # Serializa runs — evita que scan y results se pisen escribiendo los .json de estado.
 concurrency:
@@ -33,14 +42,14 @@ jobs:
       - name: 📦 Instalar dependencias
         run: npm ci || npm install
 
-      - name: 🔍 Elegir acción según el cron
+      - name: 🔍 Elegir acción (según cron o input manual)
         id: action
         run: |
-          # Los cron de 09:00 y 18:00 → scan
-          # El cron de 23:00 → results
-          # workflow_dispatch manual → scan por defecto (cambiable)
-          schedule="${{ github.event.schedule }}"
-          if [ "$schedule" = "0 23 * * *" ]; then
+          # En workflow_dispatch respetamos el input del usuario.
+          # En cron: 23:00 UTC → results, el resto → scan.
+          if [ -n "${{ github.event.inputs.mode }}" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "0 23 * * *" ]; then
             echo "mode=results" >> $GITHUB_OUTPUT
           else
             echo "mode=scan" >> $GITHUB_OUTPUT
