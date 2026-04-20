@@ -164,6 +164,25 @@
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-19T18:42:03.289Z",
       "status": "PENDING"
+    },
+    {
+      "id": "90005a58c7a7fcee93602bef33bd0a05_H_1776681869148",
+      "eventId": "90005a58c7a7fcee93602bef33bd0a05",
+      "leagueCode": "D2",
+      "leagueName": "2. Bundesliga",
+      "homeTeam": "Karlsruher SC",
+      "awayTeam": "Hannover 96",
+      "commenceTime": "2026-04-26T11:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Karlsruher SC (Local)",
+      "odds": 3.16,
+      "prob": 0.4652130132449601,
+      "edge": 0.1487573170424285,
+      "betPct": 0.03,
+      "stake": 151.73,
+      "bankrollAtSignal": 5057.675,
+      "timestamp": "2026-04-20T10:44:29.148Z",
+      "status": "PENDING"
     }
   ],
   "results": [
