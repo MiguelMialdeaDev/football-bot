@@ -159,6 +159,25 @@
       "bankrollAtSignal": 5207.675,
       "timestamp": "2026-04-20T10:44:28.793Z",
       "status": "PENDING"
+    },
+    {
+      "id": "0fe515bbf8977b5addeeae2f518117de_H_1776766576868",
+      "eventId": "0fe515bbf8977b5addeeae2f518117de",
+      "leagueCode": "G1",
+      "leagueName": "Greek Super",
+      "homeTeam": "Panserraikos FC",
+      "awayTeam": "AE Kifisia FC",
+      "commenceTime": "2026-05-09T13:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Panserraikos FC (Local)",
+      "odds": 3.06,
+      "prob": 0.4638665604198398,
+      "edge": 0.13706917479892478,
+      "betPct": 0.03,
+      "stake": 156.23,
+      "bankrollAtSignal": 5207.675,
+      "timestamp": "2026-04-21T10:16:16.868Z",
+      "status": "PENDING"
     }
   ],
   "results": [
