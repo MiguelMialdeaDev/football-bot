@@ -1,5 +1,5 @@
 {
-  "bankroll": 5207.675,
+  "bankroll": 5061.505,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -58,7 +58,12 @@
       "stake": 146.17,
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-15T07:26:41.894Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 4,
+      "profit": -146.17,
+      "settledAt": "2026-04-22T23:40:18.073Z"
     },
     {
       "id": "037f95454878a7b8d08c5f0bba0e0555_H_1776495607317",
@@ -204,12 +209,36 @@
       "awayScore": 1,
       "profit": 207.68,
       "settledAt": "2026-04-19T23:29:33.146Z"
+    },
+    {
+      "id": "62480ad9b3a49df456ed85ad1accb355_H_1776238001894",
+      "eventId": "62480ad9b3a49df456ed85ad1accb355",
+      "leagueCode": "G1",
+      "leagueName": "Greek Super",
+      "homeTeam": "Panserraikos FC",
+      "awayTeam": "Atromitos Athens",
+      "commenceTime": "2026-04-22T13:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Panserraikos FC (Local)",
+      "odds": 3.3900000000000006,
+      "prob": 0.35744234657452306,
+      "edge": 0.062457095837059995,
+      "betPct": 0.02923462473343892,
+      "stake": 146.17,
+      "bankrollAtSignal": 5000,
+      "timestamp": "2026-04-15T07:26:41.894Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 4,
+      "profit": -146.17,
+      "settledAt": "2026-04-22T23:40:18.073Z"
     }
   ],
-  "totalBets": 1,
+  "totalBets": 2,
   "wins": 1,
-  "losses": 0,
-  "totalStaked": 150,
-  "totalProfit": 207.675,
+  "losses": 1,
+  "totalStaked": 296.16999999999996,
+  "totalProfit": 61.505000000000024,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
