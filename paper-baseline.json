@@ -1,5 +1,5 @@
 {
-  "bankroll": 5061.505,
+  "bankroll": 4909.655,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -220,7 +220,12 @@
       "stake": 151.85,
       "bankrollAtSignal": 5061.505,
       "timestamp": "2026-04-24T18:43:12.634Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 0,
+      "profit": -151.85,
+      "settledAt": "2026-04-24T23:34:08.258Z"
     },
     {
       "id": "9f8acd40a29dc5b0d7ffb8c6bf106b21_H_1777056193604",
@@ -290,12 +295,36 @@
       "awayScore": 4,
       "profit": -146.17,
       "settledAt": "2026-04-22T23:40:18.073Z"
+    },
+    {
+      "id": "b666294b247ae9ddeb645d00b192ac02_H_1777056192634",
+      "eventId": "b666294b247ae9ddeb645d00b192ac02",
+      "leagueCode": "F2",
+      "leagueName": "Ligue 2",
+      "homeTeam": "Stade Lavallois",
+      "awayTeam": "Rodez AF",
+      "commenceTime": "2026-04-24T18:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Stade Lavallois (Local)",
+      "odds": 3.3143749999999996,
+      "prob": 0.41412994794907754,
+      "edge": 0.11241393814330719,
+      "betPct": 0.03,
+      "stake": 151.85,
+      "bankrollAtSignal": 5061.505,
+      "timestamp": "2026-04-24T18:43:12.634Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 0,
+      "profit": -151.85,
+      "settledAt": "2026-04-24T23:34:08.258Z"
     }
   ],
-  "totalBets": 2,
+  "totalBets": 3,
   "wins": 1,
-  "losses": 1,
-  "totalStaked": 296.16999999999996,
-  "totalProfit": 61.505000000000024,
+  "losses": 2,
+  "totalStaked": 448.02,
+  "totalProfit": -90.34499999999997,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
