@@ -183,6 +183,25 @@
       "bankrollAtSignal": 5207.675,
       "timestamp": "2026-04-21T10:16:16.868Z",
       "status": "PENDING"
+    },
+    {
+      "id": "0a96b7a933cd3cb16c7c43778f8fb9cd_H_1777025891320",
+      "eventId": "0a96b7a933cd3cb16c7c43778f8fb9cd",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Leganés",
+      "awayTeam": "Andorra CF",
+      "commenceTime": "2026-04-26T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Leganés (Local)",
+      "odds": 2.4489473684210523,
+      "prob": 0.47752911854023283,
+      "edge": 0.06919041232918616,
+      "betPct": 0.03,
+      "stake": 151.85,
+      "bankrollAtSignal": 5061.505,
+      "timestamp": "2026-04-24T10:18:11.320Z",
+      "status": "PENDING"
     }
   ],
   "results": [
