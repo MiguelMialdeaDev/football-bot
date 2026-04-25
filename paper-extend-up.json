@@ -1,5 +1,5 @@
 {
-  "bankroll": 4764.155,
+  "bankroll": 4312.425,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -130,7 +130,12 @@
       "stake": 150,
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-19T07:00:17.073Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 1,
+      "profit": -150,
+      "settledAt": "2026-04-25T23:31:11.558Z"
     },
     {
       "id": "c960ce15e25f5e703b4f864be1514d75_H_1776604096539",
@@ -149,7 +154,12 @@
       "stake": 150,
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-19T13:08:16.539Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 2,
+      "awayScore": 3,
+      "profit": -150,
+      "settledAt": "2026-04-25T23:31:11.796Z"
     },
     {
       "id": "2610a5fad9c312034347a0065bc782d0_H_1776624123289",
@@ -187,7 +197,12 @@
       "stake": 151.73,
       "bankrollAtSignal": 5057.675,
       "timestamp": "2026-04-20T10:44:29.148Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 3,
+      "profit": -151.73,
+      "settledAt": "2026-04-25T23:31:12.012Z"
     },
     {
       "id": "0fe515bbf8977b5addeeae2f518117de_H_1776766577354",
@@ -405,12 +420,84 @@
       "awayScore": 0,
       "profit": -147.35,
       "settledAt": "2026-04-24T23:34:08.590Z"
+    },
+    {
+      "id": "e6f92a95666d74c14d8bdb084d4bc723_H_1776582017073",
+      "eventId": "e6f92a95666d74c14d8bdb084d4bc723",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Burgos CF",
+      "awayTeam": "Deportivo La Coruña",
+      "commenceTime": "2026-04-25T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Burgos CF (Local)",
+      "odds": 2.4708333333333337,
+      "prob": 0.48849191186896773,
+      "edge": 0.08377015807470134,
+      "betPct": 0.03,
+      "stake": 150,
+      "bankrollAtSignal": 5000,
+      "timestamp": "2026-04-19T07:00:17.073Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 1,
+      "profit": -150,
+      "settledAt": "2026-04-25T23:31:11.558Z"
+    },
+    {
+      "id": "c960ce15e25f5e703b4f864be1514d75_H_1776604096539",
+      "eventId": "c960ce15e25f5e703b4f864be1514d75",
+      "leagueCode": "D2",
+      "leagueName": "2. Bundesliga",
+      "homeTeam": "SC Preußen Münster",
+      "awayTeam": "Arminia Bielefeld",
+      "commenceTime": "2026-04-26T11:30:00.000Z",
+      "side": "H",
+      "sideLabel": "SC Preußen Münster (Local)",
+      "odds": 2.5974999999999997,
+      "prob": 0.5157048694044616,
+      "edge": 0.1307193063630756,
+      "betPct": 0.03,
+      "stake": 150,
+      "bankrollAtSignal": 5000,
+      "timestamp": "2026-04-19T13:08:16.539Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 2,
+      "awayScore": 3,
+      "profit": -150,
+      "settledAt": "2026-04-25T23:31:11.796Z"
+    },
+    {
+      "id": "90005a58c7a7fcee93602bef33bd0a05_H_1776681869148",
+      "eventId": "90005a58c7a7fcee93602bef33bd0a05",
+      "leagueCode": "D2",
+      "leagueName": "2. Bundesliga",
+      "homeTeam": "Karlsruher SC",
+      "awayTeam": "Hannover 96",
+      "commenceTime": "2026-04-26T11:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Karlsruher SC (Local)",
+      "odds": 3.16,
+      "prob": 0.4652130132449601,
+      "edge": 0.1487573170424285,
+      "betPct": 0.03,
+      "stake": 151.73,
+      "bankrollAtSignal": 5057.675,
+      "timestamp": "2026-04-20T10:44:29.148Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 3,
+      "profit": -151.73,
+      "settledAt": "2026-04-25T23:31:12.012Z"
     }
   ],
-  "totalBets": 4,
+  "totalBets": 7,
   "wins": 1,
-  "losses": 3,
-  "totalStaked": 593.52,
-  "totalProfit": -235.84499999999997,
+  "losses": 6,
+  "totalStaked": 1045.25,
+  "totalProfit": -687.575,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }

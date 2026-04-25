@@ -1,5 +1,5 @@
 {
-  "bankroll": 4909.655,
+  "bankroll": 4453.425,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -106,7 +106,12 @@
       "stake": 150,
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-19T07:00:16.889Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 1,
+      "profit": -150,
+      "settledAt": "2026-04-25T23:31:10.337Z"
     },
     {
       "id": "c960ce15e25f5e703b4f864be1514d75_H_1776604093204",
@@ -125,7 +130,12 @@
       "stake": 150,
       "bankrollAtSignal": 5000,
       "timestamp": "2026-04-19T13:08:13.204Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 2,
+      "awayScore": 3,
+      "profit": -150,
+      "settledAt": "2026-04-25T23:31:10.857Z"
     },
     {
       "id": "2610a5fad9c312034347a0065bc782d0_H_1776624122926",
@@ -163,7 +173,12 @@
       "stake": 156.23,
       "bankrollAtSignal": 5207.675,
       "timestamp": "2026-04-20T10:44:28.793Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 3,
+      "profit": -156.23,
+      "settledAt": "2026-04-25T23:31:11.306Z"
     },
     {
       "id": "0fe515bbf8977b5addeeae2f518117de_H_1776766576868",
@@ -338,12 +353,84 @@
       "awayScore": 0,
       "profit": -151.85,
       "settledAt": "2026-04-24T23:34:08.258Z"
+    },
+    {
+      "id": "e6f92a95666d74c14d8bdb084d4bc723_H_1776582016887",
+      "eventId": "e6f92a95666d74c14d8bdb084d4bc723",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Burgos CF",
+      "awayTeam": "Deportivo La Coruña",
+      "commenceTime": "2026-04-25T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Burgos CF (Local)",
+      "odds": 2.4708333333333337,
+      "prob": 0.48849191186896773,
+      "edge": 0.08377015807470134,
+      "betPct": 0.03,
+      "stake": 150,
+      "bankrollAtSignal": 5000,
+      "timestamp": "2026-04-19T07:00:16.889Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 1,
+      "profit": -150,
+      "settledAt": "2026-04-25T23:31:10.337Z"
+    },
+    {
+      "id": "c960ce15e25f5e703b4f864be1514d75_H_1776604093204",
+      "eventId": "c960ce15e25f5e703b4f864be1514d75",
+      "leagueCode": "D2",
+      "leagueName": "2. Bundesliga",
+      "homeTeam": "SC Preußen Münster",
+      "awayTeam": "Arminia Bielefeld",
+      "commenceTime": "2026-04-26T11:30:00.000Z",
+      "side": "H",
+      "sideLabel": "SC Preußen Münster (Local)",
+      "odds": 2.5974999999999997,
+      "prob": 0.5157048694044616,
+      "edge": 0.1307193063630756,
+      "betPct": 0.03,
+      "stake": 150,
+      "bankrollAtSignal": 5000,
+      "timestamp": "2026-04-19T13:08:13.204Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 2,
+      "awayScore": 3,
+      "profit": -150,
+      "settledAt": "2026-04-25T23:31:10.857Z"
+    },
+    {
+      "id": "90005a58c7a7fcee93602bef33bd0a05_H_1776681868793",
+      "eventId": "90005a58c7a7fcee93602bef33bd0a05",
+      "leagueCode": "D2",
+      "leagueName": "2. Bundesliga",
+      "homeTeam": "Karlsruher SC",
+      "awayTeam": "Hannover 96",
+      "commenceTime": "2026-04-26T11:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Karlsruher SC (Local)",
+      "odds": 3.16,
+      "prob": 0.4652130132449601,
+      "edge": 0.1487573170424285,
+      "betPct": 0.03,
+      "stake": 156.23,
+      "bankrollAtSignal": 5207.675,
+      "timestamp": "2026-04-20T10:44:28.793Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 3,
+      "profit": -156.23,
+      "settledAt": "2026-04-25T23:31:11.306Z"
     }
   ],
-  "totalBets": 3,
+  "totalBets": 6,
   "wins": 1,
-  "losses": 2,
-  "totalStaked": 448.02,
-  "totalProfit": -90.34499999999997,
+  "losses": 5,
+  "totalStaked": 904.25,
+  "totalProfit": -546.5749999999999,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
