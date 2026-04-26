@@ -322,6 +322,25 @@
       "bankrollAtSignal": 4764.155,
       "timestamp": "2026-04-25T18:43:23.696Z",
       "status": "PENDING"
+    },
+    {
+      "id": "2f2a254b42e5ee7d0995f89589a85bb9_H_1777197089913",
+      "eventId": "2f2a254b42e5ee7d0995f89589a85bb9",
+      "leagueCode": "D2",
+      "leagueName": "2. Bundesliga",
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "1. FC Magdeburg",
+      "commenceTime": "2026-04-26T11:30:00.000Z",
+      "side": "H",
+      "sideLabel": "1. FC Nürnberg (Local)",
+      "odds": 2.4317391304347824,
+      "prob": 0.4725820489972808,
+      "edge": 0.06135372788160043,
+      "betPct": 0.03,
+      "stake": 129.37,
+      "bankrollAtSignal": 4312.425,
+      "timestamp": "2026-04-26T09:51:29.913Z",
+      "status": "PENDING"
     }
   ],
   "results": [
