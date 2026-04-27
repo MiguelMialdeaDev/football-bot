@@ -366,6 +366,25 @@
       "awayScore": 0,
       "profit": 185.22,
       "settledAt": "2026-04-26T23:33:08.244Z"
+    },
+    {
+      "id": "2af0d1bd7adff38e60da5afa3343faf2_H_1777317170922",
+      "eventId": "2af0d1bd7adff38e60da5afa3343faf2",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Real Sociedad B",
+      "awayTeam": "Burgos CF",
+      "commenceTime": "2026-05-03T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Real Sociedad B (Local)",
+      "odds": 2.5906249999999993,
+      "prob": 0.451186340889528,
+      "edge": 0.06517910325382226,
+      "betPct": 0.03,
+      "stake": 138.52,
+      "bankrollAtSignal": 4617.31831352657,
+      "timestamp": "2026-04-27T19:12:50.922Z",
+      "status": "PENDING"
     }
   ],
   "results": [
