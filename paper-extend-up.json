@@ -385,6 +385,25 @@
       "bankrollAtSignal": 4617.31831352657,
       "timestamp": "2026-04-27T19:12:50.922Z",
       "status": "PENDING"
+    },
+    {
+      "id": "4b47c1efda5f2bea9f5b6d8c8e1e368b_H_1777662377760",
+      "eventId": "4b47c1efda5f2bea9f5b6d8c8e1e368b",
+      "leagueCode": "F2",
+      "leagueName": "Ligue 2",
+      "homeTeam": "Guingamp",
+      "awayTeam": "SC Bastia",
+      "commenceTime": "2026-05-02T18:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Guingamp (Local)",
+      "odds": 2.317727272727273,
+      "prob": 0.5177901511978018,
+      "edge": 0.08633300273731936,
+      "betPct": 0.03,
+      "stake": 138.52,
+      "bankrollAtSignal": 4617.31831352657,
+      "timestamp": "2026-05-01T19:06:17.760Z",
+      "status": "PENDING"
     }
   ],
   "results": [
