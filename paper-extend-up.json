@@ -1,5 +1,5 @@
 {
-  "bankroll": 4617.31831352657,
+  "bankroll": 4335.878313526569,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -317,7 +317,12 @@
       "stake": 142.92,
       "bankrollAtSignal": 4764.155,
       "timestamp": "2026-04-25T18:43:22.618Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 3,
+      "profit": -142.92,
+      "settledAt": "2026-05-02T23:36:17.844Z"
     },
     {
       "id": "00afe5509ee58d8a2020b79c71c10844_H_1777142603696",
@@ -403,7 +408,12 @@
       "stake": 138.52,
       "bankrollAtSignal": 4617.31831352657,
       "timestamp": "2026-05-01T19:06:17.760Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 1,
+      "profit": -138.52,
+      "settledAt": "2026-05-02T23:36:18.048Z"
     },
     {
       "id": "2b9cbdf8172b07211c1471ba8a619c6c_H_1777715782193",
@@ -713,12 +723,60 @@
       "awayScore": 0,
       "profit": 185.22,
       "settledAt": "2026-04-26T23:33:08.244Z"
+    },
+    {
+      "id": "3f629fdd9da87af2588d82f07964b5c6_H_1777142602618",
+      "eventId": "3f629fdd9da87af2588d82f07964b5c6",
+      "leagueCode": "F2",
+      "leagueName": "Ligue 2",
+      "homeTeam": "Amiens",
+      "awayTeam": "Red Star",
+      "commenceTime": "2026-05-02T18:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Amiens (Local)",
+      "odds": 3.6090000000000004,
+      "prob": 0.41239526156964157,
+      "edge": 0.1353101964546513,
+      "betPct": 0.03,
+      "stake": 142.92,
+      "bankrollAtSignal": 4764.155,
+      "timestamp": "2026-04-25T18:43:22.618Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 3,
+      "profit": -142.92,
+      "settledAt": "2026-05-02T23:36:17.844Z"
+    },
+    {
+      "id": "4b47c1efda5f2bea9f5b6d8c8e1e368b_H_1777662377760",
+      "eventId": "4b47c1efda5f2bea9f5b6d8c8e1e368b",
+      "leagueCode": "F2",
+      "leagueName": "Ligue 2",
+      "homeTeam": "Guingamp",
+      "awayTeam": "SC Bastia",
+      "commenceTime": "2026-05-02T18:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Guingamp (Local)",
+      "odds": 2.317727272727273,
+      "prob": 0.5177901511978018,
+      "edge": 0.08633300273731936,
+      "betPct": 0.03,
+      "stake": 138.52,
+      "bankrollAtSignal": 4617.31831352657,
+      "timestamp": "2026-05-01T19:06:17.760Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 1,
+      "profit": -138.52,
+      "settledAt": "2026-05-02T23:36:18.048Z"
     }
   ],
-  "totalBets": 12,
+  "totalBets": 14,
   "wins": 4,
-  "losses": 8,
-  "totalStaked": 1762.2399999999998,
-  "totalProfit": -382.68168647343,
+  "losses": 10,
+  "totalStaked": 2043.6799999999998,
+  "totalProfit": -664.1216864734299,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
