@@ -380,6 +380,25 @@
       "bankrollAtSignal": 4761.494570048309,
       "timestamp": "2026-05-01T19:06:17.368Z",
       "status": "PENDING"
+    },
+    {
+      "id": "2b9cbdf8172b07211c1471ba8a619c6c_H_1777715781795",
+      "eventId": "2b9cbdf8172b07211c1471ba8a619c6c",
+      "leagueCode": "D2",
+      "leagueName": "2. Bundesliga",
+      "homeTeam": "1. FC Kaiserslautern",
+      "awayTeam": "Arminia Bielefeld",
+      "commenceTime": "2026-05-08T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "1. FC Kaiserslautern (Local)",
+      "odds": 2.5716666666666668,
+      "prob": 0.4826548767520849,
+      "edge": 0.09380199275986195,
+      "betPct": 0.03,
+      "stake": 142.84,
+      "bankrollAtSignal": 4761.494570048309,
+      "timestamp": "2026-05-02T09:56:21.795Z",
+      "status": "PENDING"
     }
   ],
   "results": [
