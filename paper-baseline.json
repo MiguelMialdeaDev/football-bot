@@ -1,5 +1,5 @@
 {
-  "bankroll": 4485.054570048308,
+  "bankroll": 4342.214570048308,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -365,7 +365,12 @@
       "stake": 142.84,
       "bankrollAtSignal": 4761.494570048309,
       "timestamp": "2026-04-27T19:12:50.393Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 0,
+      "profit": -142.84,
+      "settledAt": "2026-05-03T23:37:21.696Z"
     },
     {
       "id": "4b47c1efda5f2bea9f5b6d8c8e1e368b_H_1777662377368",
@@ -723,12 +728,36 @@
       "awayScore": 1,
       "profit": -142.84,
       "settledAt": "2026-05-02T23:36:17.323Z"
+    },
+    {
+      "id": "2af0d1bd7adff38e60da5afa3343faf2_H_1777317170393",
+      "eventId": "2af0d1bd7adff38e60da5afa3343faf2",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Real Sociedad B",
+      "awayTeam": "Burgos CF",
+      "commenceTime": "2026-05-03T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Real Sociedad B (Local)",
+      "odds": 2.5906249999999993,
+      "prob": 0.451186340889528,
+      "edge": 0.06517910325382226,
+      "betPct": 0.03,
+      "stake": 142.84,
+      "bankrollAtSignal": 4761.494570048309,
+      "timestamp": "2026-04-27T19:12:50.393Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 0,
+      "profit": -142.84,
+      "settledAt": "2026-05-03T23:37:21.696Z"
     }
   ],
-  "totalBets": 13,
+  "totalBets": 14,
   "wins": 4,
-  "losses": 9,
-  "totalStaked": 1915.2799999999995,
-  "totalProfit": -514.9454299516907,
+  "losses": 10,
+  "totalStaked": 2058.1199999999994,
+  "totalProfit": -657.7854299516907,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
