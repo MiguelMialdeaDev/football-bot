@@ -433,6 +433,25 @@
       "bankrollAtSignal": 4617.31831352657,
       "timestamp": "2026-05-02T09:56:22.193Z",
       "status": "PENDING"
+    },
+    {
+      "id": "45d14a7f3514345aebd2673eba631742_H_1777834413582",
+      "eventId": "45d14a7f3514345aebd2673eba631742",
+      "leagueCode": "F2",
+      "leagueName": "Ligue 2",
+      "homeTeam": "Grenoble",
+      "awayTeam": "Troyes",
+      "commenceTime": "2026-05-09T18:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Grenoble (Local)",
+      "odds": 3.755833333333333,
+      "prob": 0.3298405928744532,
+      "edge": 0.06358809675730209,
+      "betPct": 0.028598491741186262,
+      "stake": 124,
+      "bankrollAtSignal": 4335.878313526569,
+      "timestamp": "2026-05-03T18:53:33.582Z",
+      "status": "PENDING"
     }
   ],
   "results": [
