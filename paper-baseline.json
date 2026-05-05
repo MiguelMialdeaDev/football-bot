@@ -414,6 +414,25 @@
       "bankrollAtSignal": 4761.494570048309,
       "timestamp": "2026-05-02T09:56:21.795Z",
       "status": "PENDING"
+    },
+    {
+      "id": "50d6d6a09822c3689609b8a552ba3dc4_H_1777977749917",
+      "eventId": "50d6d6a09822c3689609b8a552ba3dc4",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Andorra CF",
+      "awayTeam": "Las Palmas",
+      "commenceTime": "2026-05-10T12:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Andorra CF (Local)",
+      "odds": 2.510714285714286,
+      "prob": 0.4665351592880422,
+      "edge": 0.068242129416065,
+      "betPct": 0.03,
+      "stake": 130.27,
+      "bankrollAtSignal": 4342.214570048308,
+      "timestamp": "2026-05-05T10:42:29.917Z",
+      "status": "PENDING"
     }
   ],
   "results": [
