@@ -433,6 +433,25 @@
       "bankrollAtSignal": 4342.214570048308,
       "timestamp": "2026-05-05T10:42:29.917Z",
       "status": "PENDING"
+    },
+    {
+      "id": "5644f630884af31e668b772cfb63aa7b_H_1778065384008",
+      "eventId": "5644f630884af31e668b772cfb63aa7b",
+      "leagueCode": "D2",
+      "leagueName": "2. Bundesliga",
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "FC Schalke 04",
+      "commenceTime": "2026-05-09T18:30:00.000Z",
+      "side": "H",
+      "sideLabel": "1. FC Nürnberg (Local)",
+      "odds": 2.347727272727273,
+      "prob": 0.52645937175077,
+      "edge": 0.10051551889501009,
+      "betPct": 0.03,
+      "stake": 130.27,
+      "bankrollAtSignal": 4342.214570048308,
+      "timestamp": "2026-05-06T11:03:04.008Z",
+      "status": "PENDING"
     }
   ],
   "results": [
