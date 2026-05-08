@@ -1,5 +1,5 @@
 {
-  "bankroll": 4197.358313526569,
+  "bankroll": 4415.065580193235,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -437,7 +437,12 @@
       "stake": 138.52,
       "bankrollAtSignal": 4617.31831352657,
       "timestamp": "2026-05-02T09:56:22.193Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 2,
+      "awayScore": 0,
+      "profit": 217.71,
+      "settledAt": "2026-05-08T23:50:46.914Z"
     },
     {
       "id": "45d14a7f3514345aebd2673eba631742_H_1777834413582",
@@ -895,12 +900,36 @@
       "awayScore": 0,
       "profit": -138.52,
       "settledAt": "2026-05-03T23:37:22.116Z"
+    },
+    {
+      "id": "2b9cbdf8172b07211c1471ba8a619c6c_H_1777715782193",
+      "eventId": "2b9cbdf8172b07211c1471ba8a619c6c",
+      "leagueCode": "D2",
+      "leagueName": "2. Bundesliga",
+      "homeTeam": "1. FC Kaiserslautern",
+      "awayTeam": "Arminia Bielefeld",
+      "commenceTime": "2026-05-08T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "1. FC Kaiserslautern (Local)",
+      "odds": 2.5716666666666668,
+      "prob": 0.4826548767520849,
+      "edge": 0.09380199275986195,
+      "betPct": 0.03,
+      "stake": 138.52,
+      "bankrollAtSignal": 4617.31831352657,
+      "timestamp": "2026-05-02T09:56:22.193Z",
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 2,
+      "awayScore": 0,
+      "profit": 217.71,
+      "settledAt": "2026-05-08T23:50:46.914Z"
     }
   ],
-  "totalBets": 15,
-  "wins": 4,
+  "totalBets": 16,
+  "wins": 5,
   "losses": 11,
-  "totalStaked": 2182.2,
-  "totalProfit": -802.6416864734299,
+  "totalStaked": 2320.72,
+  "totalProfit": -584.9344198067632,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
