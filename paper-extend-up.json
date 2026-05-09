@@ -538,6 +538,25 @@
       "bankrollAtSignal": 4197.358313526569,
       "timestamp": "2026-05-06T19:41:43.565Z",
       "status": "PENDING"
+    },
+    {
+      "id": "fc0ae357a5785abd56e13d321898bb6a_H_1778352875032",
+      "eventId": "fc0ae357a5785abd56e13d321898bb6a",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Burgos CF",
+      "commenceTime": "2026-05-16T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Granada CF (Local)",
+      "odds": 2.399,
+      "prob": 0.5158453088320094,
+      "edge": 0.09900495868611531,
+      "betPct": 0.03,
+      "stake": 132.45,
+      "bankrollAtSignal": 4415.065580193235,
+      "timestamp": "2026-05-09T18:54:35.032Z",
+      "status": "PENDING"
     }
   ],
   "results": [
