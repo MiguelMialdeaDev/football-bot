@@ -1,5 +1,5 @@
 {
-  "bankroll": 4415.065580193235,
+  "bankroll": 4433.041398375054,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -226,7 +226,12 @@
       "stake": 151.73,
       "bankrollAtSignal": 5057.675,
       "timestamp": "2026-04-21T10:16:17.354Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 2,
+      "profit": -151.73,
+      "settledAt": "2026-05-09T23:40:15.731Z"
     },
     {
       "id": "0a96b7a933cd3cb16c7c43778f8fb9cd_H_1777025891839",
@@ -499,7 +504,12 @@
       "stake": 125.92,
       "bankrollAtSignal": 4197.358313526569,
       "timestamp": "2026-05-06T11:03:04.506Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 3,
+      "awayScore": 0,
+      "profit": 169.71,
+      "settledAt": "2026-05-09T23:40:15.935Z"
     },
     {
       "id": "9ad7790574b5922d9033dbc74ed84c92_H_1778096503074",
@@ -943,12 +953,60 @@
       "awayScore": 0,
       "profit": 217.71,
       "settledAt": "2026-05-08T23:50:46.914Z"
+    },
+    {
+      "id": "0fe515bbf8977b5addeeae2f518117de_H_1776766577354",
+      "eventId": "0fe515bbf8977b5addeeae2f518117de",
+      "leagueCode": "G1",
+      "leagueName": "Greek Super",
+      "homeTeam": "Panserraikos FC",
+      "awayTeam": "AE Kifisia FC",
+      "commenceTime": "2026-05-09T13:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Panserraikos FC (Local)",
+      "odds": 3.06,
+      "prob": 0.4638665604198398,
+      "edge": 0.13706917479892478,
+      "betPct": 0.03,
+      "stake": 151.73,
+      "bankrollAtSignal": 5057.675,
+      "timestamp": "2026-04-21T10:16:17.354Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 2,
+      "profit": -151.73,
+      "settledAt": "2026-05-09T23:40:15.731Z"
+    },
+    {
+      "id": "5644f630884af31e668b772cfb63aa7b_H_1778065384506",
+      "eventId": "5644f630884af31e668b772cfb63aa7b",
+      "leagueCode": "D2",
+      "leagueName": "2. Bundesliga",
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "FC Schalke 04",
+      "commenceTime": "2026-05-09T18:30:00.000Z",
+      "side": "H",
+      "sideLabel": "1. FC Nürnberg (Local)",
+      "odds": 2.347727272727273,
+      "prob": 0.52645937175077,
+      "edge": 0.10051551889501009,
+      "betPct": 0.03,
+      "stake": 125.92,
+      "bankrollAtSignal": 4197.358313526569,
+      "timestamp": "2026-05-06T11:03:04.506Z",
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 3,
+      "awayScore": 0,
+      "profit": 169.71,
+      "settledAt": "2026-05-09T23:40:15.935Z"
     }
   ],
-  "totalBets": 16,
-  "wins": 5,
-  "losses": 11,
-  "totalStaked": 2320.72,
-  "totalProfit": -584.9344198067632,
+  "totalBets": 18,
+  "wins": 6,
+  "losses": 12,
+  "totalStaked": 2598.37,
+  "totalProfit": -566.958601624945,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
