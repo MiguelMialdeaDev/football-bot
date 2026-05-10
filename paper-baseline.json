@@ -1,5 +1,5 @@
 {
-  "bankroll": 4586.049868533157,
+  "bankroll": 4782.850618533157,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -442,7 +442,12 @@
       "stake": 130.27,
       "bankrollAtSignal": 4342.214570048308,
       "timestamp": "2026-05-05T10:42:29.917Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 5,
+      "awayScore": 1,
+      "profit": 196.8,
+      "settledAt": "2026-05-10T23:43:40.498Z"
     },
     {
       "id": "5644f630884af31e668b772cfb63aa7b_H_1778065384008",
@@ -972,12 +977,36 @@
       "awayScore": 0,
       "profit": 175.57,
       "settledAt": "2026-05-09T23:40:15.230Z"
+    },
+    {
+      "id": "50d6d6a09822c3689609b8a552ba3dc4_H_1777977749917",
+      "eventId": "50d6d6a09822c3689609b8a552ba3dc4",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Andorra CF",
+      "awayTeam": "Las Palmas",
+      "commenceTime": "2026-05-10T12:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Andorra CF (Local)",
+      "odds": 2.510714285714286,
+      "prob": 0.4665351592880422,
+      "edge": 0.068242129416065,
+      "betPct": 0.03,
+      "stake": 130.27,
+      "bankrollAtSignal": 4342.214570048308,
+      "timestamp": "2026-05-05T10:42:29.917Z",
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 5,
+      "awayScore": 1,
+      "profit": 196.8,
+      "settledAt": "2026-05-10T23:43:40.498Z"
     }
   ],
-  "totalBets": 17,
-  "wins": 6,
+  "totalBets": 18,
+  "wins": 7,
   "losses": 11,
-  "totalStaked": 2487.4599999999996,
-  "totalProfit": -413.9501314668421,
+  "totalStaked": 2617.7299999999996,
+  "totalProfit": -217.14938146684202,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
