@@ -1,5 +1,5 @@
 {
-  "bankroll": 4623.270541232197,
+  "bankroll": 4964.99387456553,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -466,7 +466,12 @@
       "stake": 124,
       "bankrollAtSignal": 4335.878313526569,
       "timestamp": "2026-05-03T18:53:33.582Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 1,
+      "awayScore": 0,
+      "profit": 341.72,
+      "settledAt": "2026-05-11T23:51:54.000Z"
     },
     {
       "id": "50d6d6a09822c3689609b8a552ba3dc4_H_1777977750457",
@@ -1068,12 +1073,36 @@
       "awayScore": 1,
       "profit": 190.23,
       "settledAt": "2026-05-10T23:43:40.836Z"
+    },
+    {
+      "id": "45d14a7f3514345aebd2673eba631742_H_1777834413582",
+      "eventId": "45d14a7f3514345aebd2673eba631742",
+      "leagueCode": "F2",
+      "leagueName": "Ligue 2",
+      "homeTeam": "Grenoble",
+      "awayTeam": "Troyes",
+      "commenceTime": "2026-05-09T18:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Grenoble (Local)",
+      "odds": 3.755833333333333,
+      "prob": 0.3298405928744532,
+      "edge": 0.06358809675730209,
+      "betPct": 0.028598491741186262,
+      "stake": 124,
+      "bankrollAtSignal": 4335.878313526569,
+      "timestamp": "2026-05-03T18:53:33.582Z",
+      "status": "SETTLED",
+      "won": true,
+      "homeScore": 1,
+      "awayScore": 0,
+      "profit": 341.72,
+      "settledAt": "2026-05-11T23:51:54.000Z"
     }
   ],
-  "totalBets": 19,
-  "wins": 7,
+  "totalBets": 20,
+  "wins": 8,
   "losses": 12,
-  "totalStaked": 2724.29,
-  "totalProfit": -376.7294587678021,
+  "totalStaked": 2848.29,
+  "totalProfit": -35.0061254344688,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
