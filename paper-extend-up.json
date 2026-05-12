@@ -615,6 +615,25 @@
       "bankrollAtSignal": 4433.041398375054,
       "timestamp": "2026-05-10T18:56:14.746Z",
       "status": "PENDING"
+    },
+    {
+      "id": "5f43c6b01ce5c88d3ed36eee73d3d9c1_H_1778615051181",
+      "eventId": "5f43c6b01ce5c88d3ed36eee73d3d9c1",
+      "leagueCode": "F2",
+      "leagueName": "Ligue 2",
+      "homeTeam": "Red Star",
+      "awayTeam": "Rodez AF",
+      "commenceTime": "2026-05-12T18:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Red Star (Local)",
+      "odds": 3.0625000000000004,
+      "prob": 0.42735271419351484,
+      "edge": 0.1008221019486169,
+      "betPct": 0.03,
+      "stake": 148.95,
+      "bankrollAtSignal": 4964.99387456553,
+      "timestamp": "2026-05-12T19:44:11.181Z",
+      "status": "PENDING"
     }
   ],
   "results": [
