@@ -586,6 +586,25 @@
       "bankrollAtSignal": 4782.850618533157,
       "timestamp": "2026-05-12T19:44:10.505Z",
       "status": "PENDING"
+    },
+    {
+      "id": "08a6d8de26d9122294f64832d2a3e1bf_H_1778671710838",
+      "eventId": "08a6d8de26d9122294f64832d2a3e1bf",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Real Sociedad B",
+      "awayTeam": "CD Mirandés",
+      "commenceTime": "2026-05-16T12:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Real Sociedad B (Local)",
+      "odds": 3.2333333333333334,
+      "prob": 0.38373154782512764,
+      "edge": 0.07445319730966371,
+      "betPct": 0.03,
+      "stake": 143.49,
+      "bankrollAtSignal": 4782.850618533157,
+      "timestamp": "2026-05-13T11:28:30.838Z",
+      "status": "PENDING"
     }
   ],
   "results": [
