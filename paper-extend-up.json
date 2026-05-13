@@ -1,5 +1,5 @@
 {
-  "bankroll": 4964.99387456553,
+  "bankroll": 4564.20387456553,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -538,7 +538,12 @@
       "stake": 125.92,
       "bankrollAtSignal": 4197.358313526569,
       "timestamp": "2026-05-06T19:41:43.074Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 2,
+      "profit": -125.92,
+      "settledAt": "2026-05-13T23:51:09.909Z"
     },
     {
       "id": "9345becab1ce31c635694e0c52dd40ef_H_1778096503565",
@@ -557,7 +562,12 @@
       "stake": 125.92,
       "bankrollAtSignal": 4197.358313526569,
       "timestamp": "2026-05-06T19:41:43.565Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 1,
+      "profit": -125.92,
+      "settledAt": "2026-05-13T23:51:10.074Z"
     },
     {
       "id": "fc0ae357a5785abd56e13d321898bb6a_H_1778352875032",
@@ -633,7 +643,12 @@
       "stake": 148.95,
       "bankrollAtSignal": 4964.99387456553,
       "timestamp": "2026-05-12T19:44:11.181Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 2,
+      "awayScore": 3,
+      "profit": -148.95,
+      "settledAt": "2026-05-13T23:51:10.198Z"
     },
     {
       "id": "08a6d8de26d9122294f64832d2a3e1bf_H_1778671711207",
@@ -1154,12 +1169,84 @@
       "awayScore": 0,
       "profit": 341.72,
       "settledAt": "2026-05-11T23:51:54.000Z"
+    },
+    {
+      "id": "9ad7790574b5922d9033dbc74ed84c92_H_1778096503074",
+      "eventId": "9ad7790574b5922d9033dbc74ed84c92",
+      "leagueCode": "G1",
+      "leagueName": "Greek Super",
+      "homeTeam": "Volos FC",
+      "awayTeam": "Aris Thessaloniki",
+      "commenceTime": "2026-05-13T14:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Volos FC (Local)",
+      "odds": 3.2290909090909095,
+      "prob": 0.4359074689415634,
+      "edge": 0.12622278425687877,
+      "betPct": 0.03,
+      "stake": 125.92,
+      "bankrollAtSignal": 4197.358313526569,
+      "timestamp": "2026-05-06T19:41:43.074Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 2,
+      "profit": -125.92,
+      "settledAt": "2026-05-13T23:51:09.909Z"
+    },
+    {
+      "id": "9345becab1ce31c635694e0c52dd40ef_H_1778096503565",
+      "eventId": "9345becab1ce31c635694e0c52dd40ef",
+      "leagueCode": "G1",
+      "leagueName": "Greek Super",
+      "homeTeam": "PAOK Thessaloniki",
+      "awayTeam": "AEK Athens",
+      "commenceTime": "2026-05-13T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "PAOK Thessaloniki (Local)",
+      "odds": 2.3611111111111107,
+      "prob": 0.5617249146501128,
+      "edge": 0.13819550288540683,
+      "betPct": 0.03,
+      "stake": 125.92,
+      "bankrollAtSignal": 4197.358313526569,
+      "timestamp": "2026-05-06T19:41:43.565Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 1,
+      "awayScore": 1,
+      "profit": -125.92,
+      "settledAt": "2026-05-13T23:51:10.074Z"
+    },
+    {
+      "id": "5f43c6b01ce5c88d3ed36eee73d3d9c1_H_1778615051181",
+      "eventId": "5f43c6b01ce5c88d3ed36eee73d3d9c1",
+      "leagueCode": "F2",
+      "leagueName": "Ligue 2",
+      "homeTeam": "Red Star",
+      "awayTeam": "Rodez AF",
+      "commenceTime": "2026-05-12T18:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Red Star (Local)",
+      "odds": 3.0625000000000004,
+      "prob": 0.42735271419351484,
+      "edge": 0.1008221019486169,
+      "betPct": 0.03,
+      "stake": 148.95,
+      "bankrollAtSignal": 4964.99387456553,
+      "timestamp": "2026-05-12T19:44:11.181Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 2,
+      "awayScore": 3,
+      "profit": -148.95,
+      "settledAt": "2026-05-13T23:51:10.198Z"
     }
   ],
-  "totalBets": 20,
+  "totalBets": 23,
   "wins": 8,
-  "losses": 12,
-  "totalStaked": 2848.29,
-  "totalProfit": -35.0061254344688,
+  "losses": 15,
+  "totalStaked": 3249.08,
+  "totalProfit": -435.7961254344688,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
