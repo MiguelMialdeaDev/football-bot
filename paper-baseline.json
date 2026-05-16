@@ -1,5 +1,5 @@
 {
-  "bankroll": 4378.820618533156,
+  "bankroll": 4098.330618533157,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -538,7 +538,12 @@
       "stake": 137,
       "bankrollAtSignal": 4566.711436714974,
       "timestamp": "2026-05-09T18:54:34.708Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 1,
+      "profit": -137,
+      "settledAt": "2026-05-16T23:44:01.862Z"
     },
     {
       "id": "078e89c347c422a45c153524811914f0_H_1778439373861",
@@ -619,7 +624,12 @@
       "stake": 143.49,
       "bankrollAtSignal": 4782.850618533157,
       "timestamp": "2026-05-13T11:28:30.838Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 2,
+      "awayScore": 2,
+      "profit": -143.49,
+      "settledAt": "2026-05-16T23:44:02.433Z"
     },
     {
       "id": "b28746c32571ba361ce7585a525fcc75_H_1778701755420",
@@ -1145,12 +1155,60 @@
       "awayScore": 3,
       "profit": -143.49,
       "settledAt": "2026-05-13T23:51:09.746Z"
+    },
+    {
+      "id": "fc0ae357a5785abd56e13d321898bb6a_H_1778352874708",
+      "eventId": "fc0ae357a5785abd56e13d321898bb6a",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Granada CF",
+      "awayTeam": "Burgos CF",
+      "commenceTime": "2026-05-16T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Granada CF (Local)",
+      "odds": 2.399,
+      "prob": 0.5158453088320094,
+      "edge": 0.09900495868611531,
+      "betPct": 0.03,
+      "stake": 137,
+      "bankrollAtSignal": 4566.711436714974,
+      "timestamp": "2026-05-09T18:54:34.708Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 0,
+      "awayScore": 1,
+      "profit": -137,
+      "settledAt": "2026-05-16T23:44:01.862Z"
+    },
+    {
+      "id": "08a6d8de26d9122294f64832d2a3e1bf_H_1778671710838",
+      "eventId": "08a6d8de26d9122294f64832d2a3e1bf",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Real Sociedad B",
+      "awayTeam": "CD Mirandés",
+      "commenceTime": "2026-05-16T12:00:00.000Z",
+      "side": "H",
+      "sideLabel": "Real Sociedad B (Local)",
+      "odds": 3.2333333333333334,
+      "prob": 0.38373154782512764,
+      "edge": 0.07445319730966371,
+      "betPct": 0.03,
+      "stake": 143.49,
+      "bankrollAtSignal": 4782.850618533157,
+      "timestamp": "2026-05-13T11:28:30.838Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 2,
+      "awayScore": 2,
+      "profit": -143.49,
+      "settledAt": "2026-05-16T23:44:02.433Z"
     }
   ],
-  "totalBets": 21,
+  "totalBets": 23,
   "wins": 7,
-  "losses": 14,
-  "totalStaked": 3021.7599999999993,
-  "totalProfit": -621.1793814668421,
+  "losses": 16,
+  "totalStaked": 3302.249999999999,
+  "totalProfit": -901.6693814668421,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
