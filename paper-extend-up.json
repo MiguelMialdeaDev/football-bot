@@ -1,5 +1,5 @@
 {
-  "bankroll": 4282.80387456553,
+  "bankroll": 4133.8538745655305,
   "signals": [
     {
       "id": "478fc8225915deb793c6d6e8c79f82ad_H_1775736021424",
@@ -696,7 +696,12 @@
       "stake": 148.95,
       "bankrollAtSignal": 4964.99387456553,
       "timestamp": "2026-05-13T19:49:15.923Z",
-      "status": "PENDING"
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 2,
+      "awayScore": 2,
+      "profit": -148.95,
+      "settledAt": "2026-05-17T23:52:33.443Z"
     }
   ],
   "results": [
@@ -1299,12 +1304,36 @@
       "awayScore": 2,
       "profit": -148.95,
       "settledAt": "2026-05-16T23:44:03.119Z"
+    },
+    {
+      "id": "b28746c32571ba361ce7585a525fcc75_H_1778701755923",
+      "eventId": "b28746c32571ba361ce7585a525fcc75",
+      "leagueCode": "G1",
+      "leagueName": "Greek Super",
+      "homeTeam": "Panathinaikos",
+      "awayTeam": "PAOK Thessaloniki",
+      "commenceTime": "2026-05-17T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Panathinaikos (Local)",
+      "odds": 3.383333333333333,
+      "prob": 0.4402586369322284,
+      "edge": 0.14469213446917417,
+      "betPct": 0.03,
+      "stake": 148.95,
+      "bankrollAtSignal": 4964.99387456553,
+      "timestamp": "2026-05-13T19:49:15.923Z",
+      "status": "SETTLED",
+      "won": false,
+      "homeScore": 2,
+      "awayScore": 2,
+      "profit": -148.95,
+      "settledAt": "2026-05-17T23:52:33.443Z"
     }
   ],
-  "totalBets": 25,
+  "totalBets": 26,
   "wins": 8,
-  "losses": 17,
-  "totalStaked": 3530.4799999999996,
-  "totalProfit": -717.1961254344687,
+  "losses": 18,
+  "totalStaked": 3679.4299999999994,
+  "totalProfit": -866.1461254344688,
   "startedAt": "2026-04-09T12:00:21.416Z"
 }
