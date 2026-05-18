@@ -702,6 +702,25 @@
       "awayScore": 2,
       "profit": -148.95,
       "settledAt": "2026-05-17T23:52:33.443Z"
+    },
+    {
+      "id": "807ea4010c442307663ca3661c328e82_H_1779107164168",
+      "eventId": "807ea4010c442307663ca3661c328e82",
+      "leagueCode": "SP2",
+      "leagueName": "Segunda Division",
+      "homeTeam": "Sporting Gijón",
+      "awayTeam": "Almería",
+      "commenceTime": "2026-05-24T16:30:00.000Z",
+      "side": "H",
+      "sideLabel": "Sporting Gijón (Local)",
+      "odds": 3.57,
+      "prob": 0.40823025706004673,
+      "edge": 0.12811821224211956,
+      "betPct": 0.03,
+      "stake": 124.02,
+      "bankrollAtSignal": 4133.8538745655305,
+      "timestamp": "2026-05-18T12:26:04.168Z",
+      "status": "PENDING"
     }
   ],
   "results": [
